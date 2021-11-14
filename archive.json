@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2021-11-11T00:17:29.027325+00:00",
+  "timestamp": "2021-11-14T00:17:39.064973+00:00",
   "repo": "intarchboard/program-rfced-future",
   "labels": [
     {
@@ -3838,7 +3838,7 @@
       "id": "I_kwDODutrrM4-BDQR",
       "title": "Editorial: wording tweak regarding ownership of XML",
       "url": "https://github.com/intarchboard/program-rfced-future/issues/117",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [
@@ -3847,8 +3847,8 @@
       "labels": [],
       "body": "mnot:\r\n> 2) Section 4.2 seems to put the XML format under the exclusive control of the RPC. Is that really our intent? Likewise for the 'readability and presentation of RFCs'.",
       "createdAt": "2021-10-31T12:55:25Z",
-      "updatedAt": "2021-10-31T12:58:27Z",
-      "closedAt": null,
+      "updatedAt": "2021-11-11T19:30:44Z",
+      "closedAt": "2021-11-11T19:30:43Z",
       "comments": [
         {
           "author": "elear",
@@ -4279,6 +4279,32 @@
       "updatedAt": "2021-11-08T05:58:28Z",
       "closedAt": null,
       "comments": []
+    },
+    {
+      "number": 134,
+      "id": "I_kwDODutrrM4-oSqI",
+      "title": "How do we update This document?",
+      "url": "https://github.com/intarchboard/program-rfced-future/issues/134",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [
+        "stpeter"
+      ],
+      "labels": [],
+      "body": "Mnot text:\r\n\r\n> Updates, amendments and refinements of this document can be produced using the process documented here, but are only operative upon agreement of the IAB, the IESG, and the IETF LLC. Note that this does not preclude such changes from being defined outside this process, so long as the same agreement is found.\r\n\r\n",
+      "createdAt": "2021-11-11T09:04:01Z",
+      "updatedAt": "2021-11-11T09:31:58Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "MIrja:\r\n\r\n> \"Updates, amendments and refinements of this document require agreement of the IAB, the IESG, and the IETF LLC.\"\r\n",
+          "createdAt": "2021-11-11T09:31:58Z",
+          "updatedAt": "2021-11-11T09:31:58Z"
+        }
+      ]
     }
   ],
   "pulls": [
@@ -4667,7 +4693,7 @@
       "id": "PR_kwDODutrrM4tq_BS",
       "title": "Wording clarifications related to appointing bodies and stream managers",
       "url": "https://github.com/intarchboard/program-rfced-future/pull/96",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "larseggert",
       "authorAssociation": "MEMBER",
       "assignees": [],
@@ -4676,17 +4702,19 @@
       ],
       "body": "1. Use the term \"stream approving body\" instead of \"stream manager\",\r\n   since the latter is ill-defined.\r\n\r\n2. The term \"appointing body\" was used for both the IESG and IAB as appointers\r\n   of RSWG chairs, and for the stream approval bodies as appointers of RSAB\r\n   voting members. Change the former to explicitly talk about the IESG and IAB,\r\n   and change the latter to clarify that \"appointing body\" means \"stream\r\n   approval body\".",
       "createdAt": "2021-10-26T09:15:37Z",
-      "updatedAt": "2021-10-28T05:45:17Z",
+      "updatedAt": "2021-11-11T19:28:57Z",
       "baseRepository": "intarchboard/program-rfced-future",
       "baseRefName": "master",
-      "baseRefOid": "586b8d21c460a446cf631922c6dddeb5f7c54ab6",
+      "baseRefOid": "73529546aa91c09b4eb12a4160498865760f394c",
       "headRepository": "intarchboard/program-rfced-future",
       "headRefName": "stream-approval-bodies",
-      "headRefOid": "653b6aba61892b147c8276ebbf3335d536c063b2",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "a7fcc53fe9d0451d169594384ba117dfe5a93a67",
+      "closedAt": "2021-11-11T19:28:52Z",
+      "mergedAt": "2021-11-11T19:28:52Z",
+      "mergedBy": "stpeter",
+      "mergeCommit": {
+        "oid": "57eee0381a634c03e4e7088c2a3ba63facf8dd21"
+      },
       "comments": [],
       "reviews": [
         {
@@ -4744,24 +4772,26 @@
       "id": "PR_kwDODutrrM4tth6Z",
       "title": "Clarify RPC-led policies",
       "url": "https://github.com/intarchboard/program-rfced-future/pull/101",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "mnot",
-      "authorAssociation": "NONE",
+      "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [],
       "body": "",
       "createdAt": "2021-10-26T23:12:43Z",
-      "updatedAt": "2021-10-30T06:04:17Z",
+      "updatedAt": "2021-11-11T19:30:44Z",
       "baseRepository": "intarchboard/program-rfced-future",
       "baseRefName": "master",
       "baseRefOid": "73529546aa91c09b4eb12a4160498865760f394c",
       "headRepository": "mnot/program-rfced-future",
       "headRefName": "patch-1",
       "headRefOid": "947c8c4517a6df9e3f8e653d11303095138f9b98",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2021-11-11T19:30:44Z",
+      "mergedAt": "2021-11-11T19:30:43Z",
+      "mergedBy": "stpeter",
+      "mergeCommit": {
+        "oid": "56b752138c4833170a09a24bd72fa271409e50dc"
+      },
       "comments": [
         {
           "author": "stpeter",
@@ -4772,7 +4802,7 @@
         },
         {
           "author": "mnot",
-          "authorAssociation": "NONE",
+          "authorAssociation": "CONTRIBUTOR",
           "body": "It seemed largely redundant with 'structure and layout of published documents'. ",
           "createdAt": "2021-10-27T23:00:03Z",
           "updatedAt": "2021-10-27T23:00:03Z"
@@ -4786,7 +4816,7 @@
         },
         {
           "author": "mnot",
-          "authorAssociation": "NONE",
+          "authorAssociation": "CONTRIBUTOR",
           "body": "Yes, so long as it avoids the word 'policies'",
           "createdAt": "2021-10-28T07:22:07Z",
           "updatedAt": "2021-10-28T07:22:07Z"
@@ -4819,7 +4849,7 @@
             "abbreviatedOid": "e9af227"
           },
           "author": "mnot",
-          "authorAssociation": "NONE",
+          "authorAssociation": "CONTRIBUTOR",
           "state": "COMMENTED",
           "body": "",
           "createdAt": "2021-10-26T23:31:21Z",
@@ -4839,7 +4869,7 @@
             "abbreviatedOid": "e9af227"
           },
           "author": "mnot",
-          "authorAssociation": "NONE",
+          "authorAssociation": "CONTRIBUTOR",
           "state": "COMMENTED",
           "body": "",
           "createdAt": "2021-10-27T03:11:55Z",
@@ -4859,7 +4889,7 @@
             "abbreviatedOid": "e9af227"
           },
           "author": "mnot",
-          "authorAssociation": "NONE",
+          "authorAssociation": "CONTRIBUTOR",
           "state": "COMMENTED",
           "body": "",
           "createdAt": "2021-10-27T03:12:14Z",
@@ -4879,7 +4909,7 @@
             "abbreviatedOid": "541eaf0"
           },
           "author": "mnot",
-          "authorAssociation": "NONE",
+          "authorAssociation": "CONTRIBUTOR",
           "state": "COMMENTED",
           "body": "",
           "createdAt": "2021-10-27T03:13:03Z",
