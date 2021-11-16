@@ -847,11 +847,11 @@ Table of Contents
    *  Identify problems with the RFC publication process and
       opportunities for improvement
 
-   *  Provide expert advice regarding policy proposals within the RSWG
+   *  Provide expert advice within the RSWG regarding policy proposals
 
-   *  If requested, provide expert advice to the RPC and IETF LLC
+   *  Provide expert advice to the RPC and IETF LLC
 
-   Matters on which the RSCE might be consulted could include the
+   Matters on which the RSCE might provide guidance could include the
    following (see also Section 4 of [RFC8729]):
 
    *  Editing, processing, and publication of RFCs
