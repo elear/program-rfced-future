@@ -802,8 +802,8 @@ Table of Contents
    The IETF LLC develops the work definition (the Statement of Work) for
    the RPC and manages the vendor selection process.  The work
    definition is created within the IETF LLC budget and takes into
-   account the needs of stream approving bodies as well as community
-   input.
+   account the RPC responsibilities Section 4.3, the needs of the
+   streams, and community input.
 
    The process to select and contract for an RFC Production Center and
    other RFC-related services is as follows:
