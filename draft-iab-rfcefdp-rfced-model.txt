@@ -96,7 +96,8 @@ Table of Contents
    5.  RFC Series Consulting Editor (RSCE)
      5.1.  RSCE Selection
      5.2.  RSCE Performance Evaluation
-     5.3.  Conflict of Interest
+     5.3.  Temporary RSCE Appointment
+     5.4.  Conflict of Interest
    6.  Editorial Stream
      6.1.  Editorial Stream Boilerplate
    7.  Security Considerations
@@ -891,7 +892,15 @@ Table of Contents
    LLC will produce a draft performance evaluation for the RSAB (not
    including the RSCE), which will provide feedback to the IETF LLC.
 
-5.3.  Conflict of Interest
+5.3.  Temporary RSCE Appointment
+
+   In the case that the currently appointed RSCE is expected to be
+   unavailable for an extended period, the IETF LLC may appoint a
+   Temporary RSCE through whatever recruitment process it considers
+   appropriate.  A Temporary RSCE acts as the RSCE in all aspects during
+   their term of appointment.
+
+5.4.  Conflict of Interest
 
    The RSCE is expected to avoid even the appearance of conflict of
    interest or judgment in performing these roles.  To ensure this, the
