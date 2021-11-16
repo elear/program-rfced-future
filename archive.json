@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2021-11-14T00:17:39.064973+00:00",
+  "timestamp": "2021-11-16T00:21:53.991930+00:00",
   "repo": "intarchboard/program-rfced-future",
   "labels": [
     {
@@ -3196,7 +3196,7 @@
       "id": "I_kwDODutrrM49m05b",
       "title": "Editorial: add reference to draft-carpenter-rfced-iab-charter?",
       "url": "https://github.com/intarchboard/program-rfced-future/issues/86",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "mirjak",
       "authorAssociation": "MEMBER",
       "assignees": [],
@@ -3205,8 +3205,8 @@
       ],
       "body": "Add reference to draft-carpenter-rfced-iab-charter in the Appendix about the IAB (instead of just pointing to the current IAB charter)",
       "createdAt": "2021-10-22T13:32:25Z",
-      "updatedAt": "2021-11-10T13:36:05Z",
-      "closedAt": null,
+      "updatedAt": "2021-11-15T16:20:16Z",
+      "closedAt": "2021-11-15T16:20:16Z",
       "comments": [
         {
           "author": "stpeter",
@@ -3240,7 +3240,7 @@
       ],
       "body": "> Absent specific guidance in this document regarding the roles and responsibilities of the chairs, the general guidance provided in Section 6.1 of [RFC2418] should be considered appropriate.\r\n\r\nWould it be better if this referred to the functioning of the group as a whole?  Such as,\r\n\r\n> Absent specific guidance in this document regarding the functioning of the working group, the general guidance provided in Section 6.1 of [RFC2418] should be considered appropriate.",
       "createdAt": "2021-10-25T05:09:23Z",
-      "updatedAt": "2021-11-10T13:30:36Z",
+      "updatedAt": "2021-11-15T23:41:14Z",
       "closedAt": null,
       "comments": [
         {
@@ -3256,6 +3256,20 @@
           "body": "Please bring it to the list",
           "createdAt": "2021-10-25T18:52:53Z",
           "updatedAt": "2021-10-25T18:52:53Z"
+        },
+        {
+          "author": "stpeter",
+          "authorAssociation": "COLLABORATOR",
+          "body": "We should change \"6.1\" to \"6\" because \u00a76.1 is specifically about chairs, whereas other subsections of \u00a76 talk about WG secretaries, design teams, etc.",
+          "createdAt": "2021-11-15T23:40:48Z",
+          "updatedAt": "2021-11-15T23:40:48Z"
+        },
+        {
+          "author": "stpeter",
+          "authorAssociation": "COLLABORATOR",
+          "body": "This change will be in -06",
+          "createdAt": "2021-11-15T23:41:14Z",
+          "updatedAt": "2021-11-15T23:41:14Z"
         }
       ]
     },
@@ -3300,11 +3314,13 @@
       "state": "OPEN",
       "author": "martinthomson",
       "authorAssociation": "CONTRIBUTOR",
-      "assignees": [],
+      "assignees": [
+        "elear"
+      ],
       "labels": [],
       "body": "The text on appeals of RSWG decisions says:\r\n\r\n> Decisions of the RSWG can be appealed only on grounds of failure to follow the correct process.\r\n\r\nThe same text does not appear in the paragraph about the RSAB, but it does say:\r\n\r\n> The IAB shall decide whether a process failure occurred and what if any corrective action should take place.\r\n\r\nThis might be confusing or it might be deliberate, I can't tell.\r\n\r\nThe RSAB makes two types of decision: policy approvals and decisions \"related to implementation of policies already in force\".  Is the intent to allow those decisions to be appealed?",
       "createdAt": "2021-10-25T05:26:17Z",
-      "updatedAt": "2021-11-10T15:26:48Z",
+      "updatedAt": "2021-11-15T16:22:32Z",
       "closedAt": null,
       "comments": [
         {
@@ -3327,6 +3343,13 @@
           "body": "I now think Martin's text is fine.",
           "createdAt": "2021-11-10T15:26:48Z",
           "updatedAt": "2021-11-10T15:26:48Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Prompt for consensus",
+          "createdAt": "2021-11-15T16:22:32Z",
+          "updatedAt": "2021-11-15T16:22:32Z"
         }
       ]
     },
@@ -3338,11 +3361,13 @@
       "state": "OPEN",
       "author": "martinthomson",
       "authorAssociation": "CONTRIBUTOR",
-      "assignees": [],
+      "assignees": [
+        "stpeter"
+      ],
       "labels": [],
       "body": "> However, in the interest of time the disagreement may be resolved as the parties best see fit while the RSWG formulates a more general policy.\r\n\r\n\"the parties\" is not quite specific enough.  I think that you want to pin this responsibility on the RSAB.  That suggests that an appeals path that is not exclusively process-based might be needed (see #93).",
       "createdAt": "2021-10-25T05:29:47Z",
-      "updatedAt": "2021-11-10T15:33:33Z",
+      "updatedAt": "2021-11-15T16:23:42Z",
       "closedAt": null,
       "comments": [
         {
@@ -3365,6 +3390,13 @@
           "body": "See email on list.",
           "createdAt": "2021-11-10T15:33:32Z",
           "updatedAt": "2021-11-10T15:33:32Z"
+        },
+        {
+          "author": "stpeter",
+          "authorAssociation": "COLLABORATOR",
+          "body": "The text needs to be clearer. I will post on list.",
+          "createdAt": "2021-11-15T16:23:42Z",
+          "updatedAt": "2021-11-15T16:23:42Z"
         }
       ]
     },
@@ -3382,7 +3414,7 @@
       "labels": [],
       "body": ">* Voting on approval of policy documents produced by the RSWG shall\r\n  be delayed until the vacancy or vacancies have been filled, up to a\r\n  maximum of 3 months; this clause does not apply to a vacancy of the\r\n  RSCE role, only of the stream representatives enumerated above.\r\n\r\nIn case of multiple vacancies, does the 3-month timer restart with vacancies that occur after the first?",
       "createdAt": "2021-10-26T09:48:10Z",
-      "updatedAt": "2021-11-10T15:38:21Z",
+      "updatedAt": "2021-11-15T16:24:26Z",
       "closedAt": null,
       "comments": [
         {
@@ -3398,6 +3430,13 @@
           "body": "Accepted in meeting, to be confirmed on list, but specific text needed (and quickly).",
           "createdAt": "2021-11-10T15:38:21Z",
           "updatedAt": "2021-11-10T15:38:21Z"
+        },
+        {
+          "author": "stpeter",
+          "authorAssociation": "COLLABORATOR",
+          "body": "We need to say something like \"If another person resigns, the timer needs to be reset.\"",
+          "createdAt": "2021-11-15T16:24:26Z",
+          "updatedAt": "2021-11-15T16:24:26Z"
         }
       ]
     },
@@ -3506,11 +3545,15 @@
       "state": "OPEN",
       "author": "JayDaley",
       "authorAssociation": "NONE",
-      "assignees": [],
-      "labels": [],
+      "assignees": [
+        "stpeter"
+      ],
+      "labels": [
+        "Consensus"
+      ],
       "body": "The list of RPC responsibilities in 4.3 needs a couple of tweaks:\r\n\r\n> * Announcing and providing on-line access to RFCs.\r\n\r\ncould be expanded to:\r\n\r\n> * Publishing RFCs by providing free and unrestricted online access both individually and in bulk, and by depositing copies in external archives.\r\n> * Publishing catalogs and catalog entries, both individually and in bulk, for RFCs.\r\n> * Announcing the publication of new RFCs to all interested parties.",
       "createdAt": "2021-10-29T02:29:44Z",
-      "updatedAt": "2021-10-31T13:07:16Z",
+      "updatedAt": "2021-11-15T23:51:50Z",
       "closedAt": null,
       "comments": [
         {
@@ -3526,6 +3569,13 @@
           "body": "* Publishing RFCs, which includes:\r\n - depositing copies on the RFC Editor site both individually and in collections \r\n - depositing copies with external archives \r\n - creating catalogs and catalog entries\r\n - announcing the publication to all interested parties",
           "createdAt": "2021-10-31T13:07:15Z",
           "updatedAt": "2021-10-31T13:07:15Z"
+        },
+        {
+          "author": "stpeter",
+          "authorAssociation": "COLLABORATOR",
+          "body": "This change will be in -06",
+          "createdAt": "2021-11-15T23:51:50Z",
+          "updatedAt": "2021-11-15T23:51:50Z"
         }
       ]
     },
@@ -3537,15 +3587,25 @@
       "state": "OPEN",
       "author": "mirjak",
       "authorAssociation": "MEMBER",
-      "assignees": [],
+      "assignees": [
+        "stpeter"
+      ],
       "labels": [
         "Editorial"
       ],
       "body": "The first sentence of the abstract is:\r\n\r\n```\r\nThis document describes updated processes for defining and\r\n   implementing policies regarding the RFC Series as a whole and thus\r\n   specifies version 3 of RFC Editor Model.\r\n```\r\n\r\nMaybe for final publication its should be:\r\n\r\n```\r\nThis document specifies version 3 of RFC Editor Model.\r\n```",
       "createdAt": "2021-10-29T10:03:42Z",
-      "updatedAt": "2021-11-10T13:32:03Z",
+      "updatedAt": "2021-11-15T23:49:01Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "stpeter",
+          "authorAssociation": "COLLABORATOR",
+          "body": "This change will be in -06",
+          "createdAt": "2021-11-15T23:49:01Z",
+          "updatedAt": "2021-11-15T23:49:01Z"
+        }
+      ]
     },
     {
       "number": 107,
@@ -3563,7 +3623,7 @@
       ],
       "body": "The Intro says the following:\r\n\r\n```\r\n   The four streams that now exist are described in [RFC8729].  This\r\n   document adds a fifth stream, the Editorial Stream.\r\n\r\n   This document obsoletes [RFC8728].  This document updates [RFC7841],\r\n   [RFC8729], and [RFC8730].\r\n```\r\n\r\nAdrian already raised a point on the list that the document could be more clear about what is updated for RFC8730.\r\n\r\nFor RFC7841 it is actually not clear to me at all what is updated. RFC7841 is referenced a couple of time but it says nowhere that it would change anything in RFC7841.\r\n\r\nFor RFC8729 we say that we add a new stream but is that the only change?\r\n\r\n\r\n\r\n",
       "createdAt": "2021-10-29T10:51:08Z",
-      "updatedAt": "2021-11-10T14:45:44Z",
+      "updatedAt": "2021-11-15T16:28:44Z",
       "closedAt": null,
       "comments": [
         {
@@ -3572,6 +3632,13 @@
           "body": "Agreed that this could be clearer. I will work on this / propose text.",
           "createdAt": "2021-11-10T14:45:43Z",
           "updatedAt": "2021-11-10T14:45:43Z"
+        },
+        {
+          "author": "stpeter",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Summarize here and see the appendix for details.",
+          "createdAt": "2021-11-15T16:28:44Z",
+          "updatedAt": "2021-11-15T16:28:44Z"
         }
       ]
     },
@@ -3589,7 +3656,7 @@
       "labels": [],
       "body": "as in \"ultimate authority of the IETF LLC\" as I guess the *ultimate* authority actually lies with the community :-)",
       "createdAt": "2021-10-29T12:47:20Z",
-      "updatedAt": "2021-11-10T14:49:43Z",
+      "updatedAt": "2021-11-15T23:35:56Z",
       "closedAt": null,
       "comments": [
         {
@@ -3605,6 +3672,13 @@
           "body": "@mirjak see now Issue #122.  Please go back to the list for support on that point.",
           "createdAt": "2021-11-04T17:31:37Z",
           "updatedAt": "2021-11-04T17:31:37Z"
+        },
+        {
+          "author": "stpeter",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I think we can close this issue in favor of the resolution in #122 ",
+          "createdAt": "2021-11-15T23:35:56Z",
+          "updatedAt": "2021-11-15T23:35:56Z"
         }
       ]
     },
@@ -3622,7 +3696,7 @@
       "labels": [],
       "body": "The documents says\r\n\r\n```\r\nNotices will always be sent to the rfc-interest mailing list.\r\n```\r\n\r\nThis assumes that we will \"forever\" have an rfc-interest@rfc-editor.org mailing list. Should we maybe rather specify what the purpose of his list is than attaching the procedures in this draft to a specific list name?",
       "createdAt": "2021-10-29T12:55:12Z",
-      "updatedAt": "2021-11-09T22:15:24Z",
+      "updatedAt": "2021-11-15T23:37:52Z",
       "closedAt": null,
       "comments": [
         {
@@ -3638,6 +3712,13 @@
           "body": "List discussion seemed to indicate \"the rfc-interest mailing list or an equivalent\"",
           "createdAt": "2021-11-09T22:15:22Z",
           "updatedAt": "2021-11-09T22:15:22Z"
+        },
+        {
+          "author": "stpeter",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I suggest: \r\n\r\n> Notices will always be sent to the rfc-interest mailing list or to its successor or future equivalent",
+          "createdAt": "2021-11-15T23:37:52Z",
+          "updatedAt": "2021-11-15T23:37:52Z"
         }
       ]
     },
@@ -3680,11 +3761,13 @@
       "state": "OPEN",
       "author": "mirjak",
       "authorAssociation": "MEMBER",
-      "assignees": [],
+      "assignees": [
+        "stpeter"
+      ],
       "labels": [],
       "body": "We have two selection committees established by the LLC in the draft - one for the RPC vendor and one for the RSCE.\r\n\r\nFor the RPC vendor we say:\r\n\r\n```\r\n      The IETF LLC establishes a selection committee, which will consist\r\n      of the IETF Executive Director and other members selected by the\r\n      IETF LLC in consultation with the stream managers.\r\n```\r\n\r\nFor the RSCE we say:\r\n\r\n```\r\n   The IETF LLC will form a selection committee, including members from\r\n   the community, that will be responsible for making a recommendation\r\n   to the IETF LLC for the RSCE role.\r\n```\r\n\r\nThere are two differences here 1) naming the Executive director explicitly as a member and 2) consultation with the stream managers.\r\n\r\nJust checking if we think these differences are intentional? And if so, why?\r\n",
       "createdAt": "2021-10-29T15:38:45Z",
-      "updatedAt": "2021-10-29T15:52:05Z",
+      "updatedAt": "2021-11-15T16:06:30Z",
       "closedAt": null,
       "comments": [
         {
@@ -3928,11 +4011,13 @@
       "state": "OPEN",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
-      "assignees": [],
+      "assignees": [
+        "stpeter"
+      ],
       "labels": [],
       "body": "Mirja proposes:\r\n\r\n>  \"Performance targets are set based on the current publication load as well as additional efforts as requested in policies by the RSWG and may be consulted with the community.\u201d",
       "createdAt": "2021-10-31T13:04:43Z",
-      "updatedAt": "2021-10-31T13:04:43Z",
+      "updatedAt": "2021-11-15T16:06:58Z",
       "closedAt": null,
       "comments": []
     },
@@ -4036,7 +4121,7 @@
       ],
       "body": "From Mirja:\r\n> Also I actually proposed on list to not talk about \"authority of the IETF LLC\" but use \"contractually overseen by the IETF LLC\u201d instead as we use it already once in the document. I think this is more accurate.\r\n\r\nThis would require changes in the abstract, Section 1, Section 2, Section 3.1.2, Section 4.1, and A.4.",
       "createdAt": "2021-11-04T17:30:54Z",
-      "updatedAt": "2021-11-10T16:25:34Z",
+      "updatedAt": "2021-11-15T23:35:05Z",
       "closedAt": null,
       "comments": [
         {
@@ -4045,6 +4130,13 @@
           "body": "Ok to proceed.",
           "createdAt": "2021-11-10T16:25:34Z",
           "updatedAt": "2021-11-10T16:25:34Z"
+        },
+        {
+          "author": "stpeter",
+          "authorAssociation": "COLLABORATOR",
+          "body": "This change will be in -06.",
+          "createdAt": "2021-11-15T23:35:04Z",
+          "updatedAt": "2021-11-15T23:35:04Z"
         }
       ]
     },
@@ -4128,9 +4220,17 @@
       ],
       "body": "Mike StJohns:\r\n\r\n> Section 4.3 - first para: The RPC responsibilities will change from time to time and are specified by the contract, not by these documents unless incorporated by reference.  Suggest  inserting \"(as of publication)\" after \"responsibilities\" near the end of that long run on sentence.  Referencing the current contract may also be useful here.",
       "createdAt": "2021-11-05T16:08:44Z",
-      "updatedAt": "2021-11-05T16:09:07Z",
+      "updatedAt": "2021-11-15T16:12:43Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "insure timelessness",
+          "createdAt": "2021-11-15T16:12:43Z",
+          "updatedAt": "2021-11-15T16:12:43Z"
+        }
+      ]
     },
     {
       "number": 127,
@@ -4188,9 +4288,17 @@
       "labels": [],
       "body": "As suggested by Mike St Johns and supprted by Martin Durst.  Disagreement from Colin Perkins.",
       "createdAt": "2021-11-06T08:35:09Z",
-      "updatedAt": "2021-11-06T08:35:09Z",
+      "updatedAt": "2021-11-15T16:15:25Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "No consensus to change the text.",
+          "createdAt": "2021-11-15T16:15:25Z",
+          "updatedAt": "2021-11-15T16:15:25Z"
+        }
+      ]
     },
     {
       "number": 130,
