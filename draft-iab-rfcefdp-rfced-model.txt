@@ -4,10 +4,10 @@
 
 Network Working Group                                P. Saint-Andre, Ed.
 Internet-Draft                                                   Mozilla
-Obsoletes: RFC8728 (if approved)                        18 November 2021
+Obsoletes: RFC8728 (if approved)                        19 November 2021
 Updates: RFC7841, RFC8729, RFC8730 (if approved)                        
 Intended status: Informational                                          
-Expires: 22 May 2022
+Expires: 23 May 2022
 
 
                       RFC Editor Model (Version 3)
@@ -53,7 +53,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 22 May 2022.
+   This Internet-Draft will expire on 23 May 2022.
 
 Copyright Notice
 
@@ -518,7 +518,7 @@ Table of Contents
    within the RSWG and to raise any concerns and issues during those
    discussions, most CONCERN positions should not come as a surprise to
    the RSWG.  Notwithstanding, late CONCERN positions are always
-   possible if issues are identified during RSAB review..
+   possible if issues are identified during RSAB review.
 
    1.  If a CONCERN exists, discussion will take place within the RSWG.
        Again, all RSAB members are expected to participate.  If
