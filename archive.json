@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2021-11-18T00:17:46.451011+00:00",
+  "timestamp": "2021-11-21T00:18:01.198536+00:00",
   "repo": "intarchboard/program-rfced-future",
   "labels": [
     {
@@ -3229,7 +3229,7 @@
       "id": "I_kwDODutrrM49rAdw",
       "title": "Should the 2418 backstop be more general",
       "url": "https://github.com/intarchboard/program-rfced-future/issues/90",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "martinthomson",
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [
@@ -3240,8 +3240,8 @@
       ],
       "body": "> Absent specific guidance in this document regarding the roles and responsibilities of the chairs, the general guidance provided in Section 6.1 of [RFC2418] should be considered appropriate.\r\n\r\nWould it be better if this referred to the functioning of the group as a whole?  Such as,\r\n\r\n> Absent specific guidance in this document regarding the functioning of the working group, the general guidance provided in Section 6.1 of [RFC2418] should be considered appropriate.",
       "createdAt": "2021-10-25T05:09:23Z",
-      "updatedAt": "2021-11-16T01:55:05Z",
-      "closedAt": null,
+      "updatedAt": "2021-11-19T06:45:27Z",
+      "closedAt": "2021-11-19T06:45:27Z",
       "comments": [
         {
           "author": "stpeter",
@@ -3327,7 +3327,7 @@
       "labels": [],
       "body": "The text on appeals of RSWG decisions says:\r\n\r\n> Decisions of the RSWG can be appealed only on grounds of failure to follow the correct process.\r\n\r\nThe same text does not appear in the paragraph about the RSAB, but it does say:\r\n\r\n> The IAB shall decide whether a process failure occurred and what if any corrective action should take place.\r\n\r\nThis might be confusing or it might be deliberate, I can't tell.\r\n\r\nThe RSAB makes two types of decision: policy approvals and decisions \"related to implementation of policies already in force\".  Is the intent to allow those decisions to be appealed?",
       "createdAt": "2021-10-25T05:26:17Z",
-      "updatedAt": "2021-11-16T21:34:14Z",
+      "updatedAt": "2021-11-19T17:51:32Z",
       "closedAt": null,
       "comments": [
         {
@@ -3364,6 +3364,13 @@
           "body": "Fixed by https://github.com/intarchboard/program-rfced-future/commit/dfea0158151a0b7c6149a4d3431c6f24d9f4f92f",
           "createdAt": "2021-11-16T21:34:14Z",
           "updatedAt": "2021-11-16T21:34:14Z"
+        },
+        {
+          "author": "stpeter",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I think this is addressed in -06.",
+          "createdAt": "2021-11-19T17:51:32Z",
+          "updatedAt": "2021-11-19T17:51:32Z"
         }
       ]
     },
@@ -3381,7 +3388,7 @@
       "labels": [],
       "body": "> However, in the interest of time the disagreement may be resolved as the parties best see fit while the RSWG formulates a more general policy.\r\n\r\n\"the parties\" is not quite specific enough.  I think that you want to pin this responsibility on the RSAB.  That suggests that an appeals path that is not exclusively process-based might be needed (see #93).",
       "createdAt": "2021-10-25T05:29:47Z",
-      "updatedAt": "2021-11-16T01:55:19Z",
+      "updatedAt": "2021-11-19T17:52:31Z",
       "closedAt": null,
       "comments": [
         {
@@ -3418,6 +3425,20 @@
           "body": "Fixed by https://github.com/intarchboard/program-rfced-future/commit/f6f3a36cd720dad6248e841a120b5c3b2e0fb226",
           "createdAt": "2021-11-16T01:55:19Z",
           "updatedAt": "2021-11-16T01:55:19Z"
+        },
+        {
+          "author": "stpeter",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I think this is addressed in -06.",
+          "createdAt": "2021-11-19T17:51:41Z",
+          "updatedAt": "2021-11-19T17:51:41Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Sit tight.  We need to bring these back to the list for confirmation.",
+          "createdAt": "2021-11-19T17:52:31Z",
+          "updatedAt": "2021-11-19T17:52:31Z"
         }
       ]
     },
@@ -3426,7 +3447,7 @@
       "id": "I_kwDODutrrM49wUg1",
       "title": "3-month timer restart?",
       "url": "https://github.com/intarchboard/program-rfced-future/issues/97",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "larseggert",
       "authorAssociation": "MEMBER",
       "assignees": [
@@ -3435,8 +3456,8 @@
       "labels": [],
       "body": ">* Voting on approval of policy documents produced by the RSWG shall\r\n  be delayed until the vacancy or vacancies have been filled, up to a\r\n  maximum of 3 months; this clause does not apply to a vacancy of the\r\n  RSCE role, only of the stream representatives enumerated above.\r\n\r\nIn case of multiple vacancies, does the 3-month timer restart with vacancies that occur after the first?",
       "createdAt": "2021-10-26T09:48:10Z",
-      "updatedAt": "2021-11-16T21:37:00Z",
-      "closedAt": null,
+      "updatedAt": "2021-11-19T06:45:51Z",
+      "closedAt": "2021-11-19T06:45:51Z",
       "comments": [
         {
           "author": "elear",
@@ -3537,7 +3558,7 @@
       "id": "I_kwDODutrrM497sgZ",
       "title": "Allow for a temporary RSCE appointment while the permanent RSCE is still in post but temporarily unavailable",
       "url": "https://github.com/intarchboard/program-rfced-future/issues/104",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "JayDaley",
       "authorAssociation": "NONE",
       "assignees": [
@@ -3546,8 +3567,8 @@
       "labels": [],
       "body": "There are multiple reasons why the RSCE may be temporarily unavailable, including maternity leave, illness, or sabbatical, which the current draft doesn't allow for.  I suggest the following text be added:\r\n\r\n> In the case that the RSCE is expected to be unavailable for an extended period then the IETF LLC may appoint a Temporary RSCE through whatever recruitment process it considers appropriate.  A Temporary RSCE acts as the RSCE in all aspects during their term of appointment",
       "createdAt": "2021-10-29T00:36:57Z",
-      "updatedAt": "2021-11-16T02:06:16Z",
-      "closedAt": null,
+      "updatedAt": "2021-11-19T06:47:47Z",
+      "closedAt": "2021-11-19T06:47:47Z",
       "comments": [
         {
           "author": "elear",
@@ -3577,7 +3598,7 @@
       "id": "I_kwDODutrrM4973mK",
       "title": "RPC responsibilities list missing a couple of ex-(RFC Publisher) responsibilities",
       "url": "https://github.com/intarchboard/program-rfced-future/issues/105",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "JayDaley",
       "authorAssociation": "NONE",
       "assignees": [
@@ -3588,8 +3609,8 @@
       ],
       "body": "The list of RPC responsibilities in 4.3 needs a couple of tweaks:\r\n\r\n> * Announcing and providing on-line access to RFCs.\r\n\r\ncould be expanded to:\r\n\r\n> * Publishing RFCs by providing free and unrestricted online access both individually and in bulk, and by depositing copies in external archives.\r\n> * Publishing catalogs and catalog entries, both individually and in bulk, for RFCs.\r\n> * Announcing the publication of new RFCs to all interested parties.",
       "createdAt": "2021-10-29T02:29:44Z",
-      "updatedAt": "2021-11-16T01:55:43Z",
-      "closedAt": null,
+      "updatedAt": "2021-11-19T06:45:12Z",
+      "closedAt": "2021-11-19T06:45:12Z",
       "comments": [
         {
           "author": "elear",
@@ -3626,7 +3647,7 @@
       "id": "I_kwDODutrrM498_g3",
       "title": "Editorial: Update first sentence of abstract?",
       "url": "https://github.com/intarchboard/program-rfced-future/issues/106",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "mirjak",
       "authorAssociation": "MEMBER",
       "assignees": [
@@ -3637,8 +3658,8 @@
       ],
       "body": "The first sentence of the abstract is:\r\n\r\n```\r\nThis document describes updated processes for defining and\r\n   implementing policies regarding the RFC Series as a whole and thus\r\n   specifies version 3 of RFC Editor Model.\r\n```\r\n\r\nMaybe for final publication its should be:\r\n\r\n```\r\nThis document specifies version 3 of RFC Editor Model.\r\n```",
       "createdAt": "2021-10-29T10:03:42Z",
-      "updatedAt": "2021-11-16T01:54:49Z",
-      "closedAt": null,
+      "updatedAt": "2021-11-19T06:45:00Z",
+      "closedAt": "2021-11-19T06:45:00Z",
       "comments": [
         {
           "author": "stpeter",
@@ -3661,7 +3682,7 @@
       "id": "I_kwDODutrrM499JDV",
       "title": "What are the updates to other RFCs?",
       "url": "https://github.com/intarchboard/program-rfced-future/issues/107",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "mirjak",
       "authorAssociation": "MEMBER",
       "assignees": [
@@ -3672,8 +3693,8 @@
       ],
       "body": "The Intro says the following:\r\n\r\n```\r\n   The four streams that now exist are described in [RFC8729].  This\r\n   document adds a fifth stream, the Editorial Stream.\r\n\r\n   This document obsoletes [RFC8728].  This document updates [RFC7841],\r\n   [RFC8729], and [RFC8730].\r\n```\r\n\r\nAdrian already raised a point on the list that the document could be more clear about what is updated for RFC8730.\r\n\r\nFor RFC7841 it is actually not clear to me at all what is updated. RFC7841 is referenced a couple of time but it says nowhere that it would change anything in RFC7841.\r\n\r\nFor RFC8729 we say that we add a new stream but is that the only change?\r\n\r\n\r\n\r\n",
       "createdAt": "2021-10-29T10:51:08Z",
-      "updatedAt": "2021-11-16T21:49:42Z",
-      "closedAt": null,
+      "updatedAt": "2021-11-19T06:44:52Z",
+      "closedAt": "2021-11-19T06:44:52Z",
       "comments": [
         {
           "author": "stpeter",
@@ -3703,7 +3724,7 @@
       "id": "I_kwDODutrrM499f4I",
       "title": "Remove the word \"ultimate\"",
       "url": "https://github.com/intarchboard/program-rfced-future/issues/108",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "mirjak",
       "authorAssociation": "MEMBER",
       "assignees": [
@@ -3712,8 +3733,8 @@
       "labels": [],
       "body": "as in \"ultimate authority of the IETF LLC\" as I guess the *ultimate* authority actually lies with the community :-)",
       "createdAt": "2021-10-29T12:47:20Z",
-      "updatedAt": "2021-11-16T01:54:08Z",
-      "closedAt": null,
+      "updatedAt": "2021-11-19T06:47:33Z",
+      "closedAt": "2021-11-19T06:47:33Z",
       "comments": [
         {
           "author": "mirjak",
@@ -3750,7 +3771,7 @@
       "id": "I_kwDODutrrM499hhP",
       "title": "Do we want to write the existence of rfc-interest@rfc-editor.org in stone?",
       "url": "https://github.com/intarchboard/program-rfced-future/issues/109",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "mirjak",
       "authorAssociation": "MEMBER",
       "assignees": [
@@ -3759,8 +3780,8 @@
       "labels": [],
       "body": "The documents says\r\n\r\n```\r\nNotices will always be sent to the rfc-interest mailing list.\r\n```\r\n\r\nThis assumes that we will \"forever\" have an rfc-interest@rfc-editor.org mailing list. Should we maybe rather specify what the purpose of his list is than attaching the procedures in this draft to a specific list name?",
       "createdAt": "2021-10-29T12:55:12Z",
-      "updatedAt": "2021-11-16T01:53:54Z",
-      "closedAt": null,
+      "updatedAt": "2021-11-19T06:47:17Z",
+      "closedAt": "2021-11-19T06:47:17Z",
       "comments": [
         {
           "author": "elear",
@@ -3828,7 +3849,7 @@
       "id": "I_kwDODutrrM49-IgR",
       "title": "selection committees (again)",
       "url": "https://github.com/intarchboard/program-rfced-future/issues/111",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "mirjak",
       "authorAssociation": "MEMBER",
       "assignees": [
@@ -3837,8 +3858,8 @@
       "labels": [],
       "body": "We have two selection committees established by the LLC in the draft - one for the RPC vendor and one for the RSCE.\r\n\r\nFor the RPC vendor we say:\r\n\r\n```\r\n      The IETF LLC establishes a selection committee, which will consist\r\n      of the IETF Executive Director and other members selected by the\r\n      IETF LLC in consultation with the stream managers.\r\n```\r\n\r\nFor the RSCE we say:\r\n\r\n```\r\n   The IETF LLC will form a selection committee, including members from\r\n   the community, that will be responsible for making a recommendation\r\n   to the IETF LLC for the RSCE role.\r\n```\r\n\r\nThere are two differences here 1) naming the Executive director explicitly as a member and 2) consultation with the stream managers.\r\n\r\nJust checking if we think these differences are intentional? And if so, why?\r\n",
       "createdAt": "2021-10-29T15:38:45Z",
-      "updatedAt": "2021-11-16T02:11:34Z",
-      "closedAt": null,
+      "updatedAt": "2021-11-19T06:46:26Z",
+      "closedAt": "2021-11-19T06:46:26Z",
       "comments": [
         {
           "author": "elear",
@@ -3861,7 +3882,7 @@
       "id": "I_kwDODutrrM49-Js6",
       "title": "Minor:  RPC Statement of Work",
       "url": "https://github.com/intarchboard/program-rfced-future/issues/112",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "mirjak",
       "authorAssociation": "MEMBER",
       "assignees": [
@@ -3872,8 +3893,8 @@
       ],
       "body": "The draft says:\r\n\r\n```\r\n   The IETF LLC develops the work definition (the Statement of Work) for\r\n   the RPC and manages the vendor selection process.  The work\r\n   definition is created within the IETF LLC budget and takes into\r\n   account the needs of stream managers as well as community input.\r\n```\r\n\r\nJust for the sake of completeness, shouldn't this sentence also say that the statement of works takes the list of RPC responsibilities in this draft in section 4.3 into account? Or is there actually a reason we don't say that explicitly?\r\n",
       "createdAt": "2021-10-29T15:42:54Z",
-      "updatedAt": "2021-11-16T02:16:18Z",
-      "closedAt": null,
+      "updatedAt": "2021-11-19T06:44:20Z",
+      "closedAt": "2021-11-19T06:44:20Z",
       "comments": [
         {
           "author": "elear",
@@ -3903,15 +3924,15 @@
       "id": "I_kwDODutrrM4-BC5r",
       "title": "Expertise concerns",
       "url": "https://github.com/intarchboard/program-rfced-future/issues/113",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "John Klensin:\r\n\r\n> I continue to be worried about actual publications\r\nexpertise.  Replacing the RSE-based model with an RSCE is fine,\r\nbut there is no way to guarantee that the RSAB will pay any\r\nattention to them, especially if the community (as represented\r\nin the WG) and at least a few Streams want something else.\r\nMaybe that is what we want, but I suggest it might be a mistake.",
       "createdAt": "2021-10-31T12:48:33Z",
-      "updatedAt": "2021-10-31T12:48:33Z",
-      "closedAt": null,
+      "updatedAt": "2021-11-19T06:47:17Z",
+      "closedAt": "2021-11-19T06:47:17Z",
       "comments": []
     },
     {
@@ -3919,15 +3940,15 @@
       "id": "I_kwDODutrrM4-BC_o",
       "title": "Simpler process for certain changes",
       "url": "https://github.com/intarchboard/program-rfced-future/issues/114",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "John Klensin (but supported by John Levine and Mark Nottingham)\r\n\r\n> We don't distinguish very well between important strategic\r\nissues and, at the other extreme, subjects about which it may be\r\nmore important to make a decision among a set of reasonable\r\noptions than which option is chosen.  Instead, we seem to have a\r\ncommunity process for nearly everything.  That could result in\r\nmore community control (at least by the subset of the community\r\nthat feels passionately about the topics) and more transparency\r\nbut, as John Levine pointed out from a different perspective\r\n[1], it could also lead to paralysis.",
       "createdAt": "2021-10-31T12:50:28Z",
-      "updatedAt": "2021-11-16T02:44:57Z",
-      "closedAt": null,
+      "updatedAt": "2021-11-19T12:10:12Z",
+      "closedAt": "2021-11-19T12:10:12Z",
       "comments": [
         {
           "author": "elear",
@@ -3971,15 +3992,15 @@
       "id": "I_kwDODutrrM4-BDCo",
       "title": "No accountability",
       "url": "https://github.com/intarchboard/program-rfced-future/issues/115",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "John Klensin:\r\n\r\n> The whole new system has many moving parts.  While I think\r\nthe draft does a good job of identifying roles and sorting\r\nthings out, I'm concerned that, should there be a big problem\r\n--one on the scale of the one or two that brought us to this\r\npoint and effort-- enough different people will be responsible\r\nfor pieces of the puzzle that no one will be accountable.",
       "createdAt": "2021-10-31T12:51:26Z",
-      "updatedAt": "2021-10-31T12:51:42Z",
-      "closedAt": null,
+      "updatedAt": "2021-11-19T06:47:17Z",
+      "closedAt": "2021-11-19T06:47:17Z",
       "comments": []
     },
     {
@@ -3987,15 +4008,15 @@
       "id": "I_kwDODutrrM4-BDL_",
       "title": "Nominate initial list of RFCs for editorial stream",
       "url": "https://github.com/intarchboard/program-rfced-future/issues/116",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "From mnot:\r\n\r\n> Should we use this opportunity to nominate a set of existing RFCs to flip over to the Editorial stream? If we don't, it'll likely need to be done one-by-one as they need to be revised.\r\n",
       "createdAt": "2021-10-31T12:54:04Z",
-      "updatedAt": "2021-10-31T12:54:04Z",
-      "closedAt": null,
+      "updatedAt": "2021-11-19T06:47:18Z",
+      "closedAt": "2021-11-19T06:47:18Z",
       "comments": []
     },
     {
@@ -4029,15 +4050,15 @@
       "id": "I_kwDODutrrM4-BDYn",
       "title": "costs hidden",
       "url": "https://github.com/intarchboard/program-rfced-future/issues/118",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "mnot:\r\n\r\n> One of the things that concerned me about the previous model was the lack of any direct link between the amount of work requested of the RPC and what it ultimately cost us as an organisation. In other words, we keep on asking for more because the costs are hidden. I don't know if we can address that in *this* document, but it's something that continues to concern me. Any thoughts here?",
       "createdAt": "2021-10-31T12:57:20Z",
-      "updatedAt": "2021-10-31T12:57:20Z",
-      "closedAt": null,
+      "updatedAt": "2021-11-19T06:47:18Z",
+      "closedAt": "2021-11-19T06:47:18Z",
       "comments": []
     },
     {
@@ -4090,7 +4111,7 @@
       "id": "I_kwDODutrrM4-BDzY",
       "title": "Clarification on performance targets text",
       "url": "https://github.com/intarchboard/program-rfced-future/issues/120",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [
@@ -4099,8 +4120,8 @@
       "labels": [],
       "body": "Mirja proposes:\r\n\r\n>  \"Performance targets are set based on the current publication load as well as additional efforts as requested in policies by the RSWG and may be consulted with the community.\u201d",
       "createdAt": "2021-10-31T13:04:43Z",
-      "updatedAt": "2021-11-16T22:38:22Z",
-      "closedAt": null,
+      "updatedAt": "2021-11-19T06:48:24Z",
+      "closedAt": "2021-11-19T06:48:24Z",
       "comments": [
         {
           "author": "stpeter",
@@ -4116,7 +4137,7 @@
       "id": "I_kwDODutrrM4-SKbm",
       "title": "Section on External Representation does only consider incoming requests but not actual representation",
       "url": "https://github.com/intarchboard/program-rfced-future/issues/121",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "mirjak",
       "authorAssociation": "MEMBER",
       "assignees": [
@@ -4127,8 +4148,8 @@
       ],
       "body": "The section on \"External Representation\" only specifies how other can ask question but it doesn't actually say anything about representation when we need to reach out.\r\n\r\n(Trying to capture an issue for one of the things that are under discussion on the list)",
       "createdAt": "2021-11-04T16:23:18Z",
-      "updatedAt": "2021-11-16T01:53:27Z",
-      "closedAt": null,
+      "updatedAt": "2021-11-19T06:41:05Z",
+      "closedAt": "2021-11-19T06:41:05Z",
       "comments": [
         {
           "author": "elear",
@@ -4207,7 +4228,7 @@
       "id": "I_kwDODutrrM4-SbkV",
       "title": "\"RPC under authority of the IETF LLC\" => \"as contractually overseen by the IETF LLC\"",
       "url": "https://github.com/intarchboard/program-rfced-future/issues/122",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [
@@ -4218,8 +4239,8 @@
       ],
       "body": "From Mirja:\r\n> Also I actually proposed on list to not talk about \"authority of the IETF LLC\" but use \"contractually overseen by the IETF LLC\u201d instead as we use it already once in the document. I think this is more accurate.\r\n\r\nThis would require changes in the abstract, Section 1, Section 2, Section 3.1.2, Section 4.1, and A.4.",
       "createdAt": "2021-11-04T17:30:54Z",
-      "updatedAt": "2021-11-16T01:52:39Z",
-      "closedAt": null,
+      "updatedAt": "2021-11-19T06:41:06Z",
+      "closedAt": "2021-11-19T06:41:05Z",
       "comments": [
         {
           "author": "elear",
@@ -4249,7 +4270,7 @@
       "id": "I_kwDODutrrM4-WMXs",
       "title": "Mike St. Johns Editorials",
       "url": "https://github.com/intarchboard/program-rfced-future/issues/123",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [
@@ -4260,8 +4281,8 @@
       ],
       "body": ">\r\n>\r\n> Section 1, numbered item 1 beginning Policy definition.   This is worded in a way that implies more authority to the RSWG than is planned.  Instead replace the second sentence here (and the similar language in Section 2 third para with:\r\n>\r\n> \"This is the responsibility of both the RFC Series Working Group (RSWG), which proposes policy, and the RFC Series Approval Board (RSAB), which evaluates and approves or rejects such proposals.\"\r\n\r\n\r\n\r\n> Section 1, numbered item 2 top of page 4 first sentence: s/through publication of/of the concepts described in/.  Insert \"Editorial\" before \"Series\".\r\n\r\n\r\n\r\n> Following para s/documents are produced/RFCs are produced/\r\nEditorial\r\n>\r\n> Section 2, 3rd para change from above.  Also, that first sentence is a run on.\r\n\r\n\r\n\r\n> Section 3, first para s/that are//  There are also missing commas.   Insert after (RSWG) - \", pass a community last call, \"\r\n\r\n\r\n> Section 4.1, 2nd para, last bullet, delete \"contractually\" - duplicative with \"contract\".\r\n\r\n\r\n\r\n",
       "createdAt": "2021-11-05T16:00:45Z",
-      "updatedAt": "2021-11-16T02:42:23Z",
-      "closedAt": null,
+      "updatedAt": "2021-11-19T06:43:47Z",
+      "closedAt": "2021-11-19T06:43:47Z",
       "comments": [
         {
           "author": "stpeter",
@@ -4277,7 +4298,7 @@
       "id": "I_kwDODutrrM4-WM_D",
       "title": "Minor tweak to cover legacy RFC editor documents",
       "url": "https://github.com/intarchboard/program-rfced-future/issues/124",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [
@@ -4286,8 +4307,8 @@
       "labels": [],
       "body": "Mike StJohns:\r\n\r\n> Section 4.1, 2nd para, first bullet.   I think some language is needed here such as insert at end: \"or by such legacy RFCs which apply to the RPC and which have not yet been superceded by Editorial stream documents and the requisite contractual changes.\"",
       "createdAt": "2021-11-05T16:03:35Z",
-      "updatedAt": "2021-11-16T02:19:37Z",
-      "closedAt": null,
+      "updatedAt": "2021-11-19T06:48:57Z",
+      "closedAt": "2021-11-19T06:48:57Z",
       "comments": [
         {
           "author": "stpeter",
@@ -4303,7 +4324,7 @@
       "id": "I_kwDODutrrM4-WNoW",
       "title": "Be specific about individuals in raising concerns",
       "url": "https://github.com/intarchboard/program-rfced-future/issues/125",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [
@@ -4314,8 +4335,8 @@
       ],
       "body": "Mike StJohns:\r\n\r\n> Section 4.1, para at top of page 14 beginning \"If individuals...\" - this is one of the few places that we need specific individuals rather than the generic LLC so: s/the IETF LLC look into/the IETF LLC board, the IETF ED or a POC designated by the LLC board to look into/",
       "createdAt": "2021-11-05T16:06:24Z",
-      "updatedAt": "2021-11-16T02:23:21Z",
-      "closedAt": null,
+      "updatedAt": "2021-11-19T06:43:30Z",
+      "closedAt": "2021-11-19T06:43:30Z",
       "comments": [
         {
           "author": "elear",
@@ -4338,7 +4359,7 @@
       "id": "I_kwDODutrrM4-WOJU",
       "title": "Point in time reference to RPC responsibilities",
       "url": "https://github.com/intarchboard/program-rfced-future/issues/126",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
@@ -4347,8 +4368,8 @@
       ],
       "body": "Mike StJohns:\r\n\r\n> Section 4.3 - first para: The RPC responsibilities will change from time to time and are specified by the contract, not by these documents unless incorporated by reference.  Suggest  inserting \"(as of publication)\" after \"responsibilities\" near the end of that long run on sentence.  Referencing the current contract may also be useful here.",
       "createdAt": "2021-11-05T16:08:44Z",
-      "updatedAt": "2021-11-16T02:27:08Z",
-      "closedAt": null,
+      "updatedAt": "2021-11-19T06:41:38Z",
+      "closedAt": "2021-11-19T06:41:38Z",
       "comments": [
         {
           "author": "elear",
@@ -4371,23 +4392,31 @@
       "id": "I_kwDODutrrM4-WOsg",
       "title": "COI mods",
       "url": "https://github.com/intarchboard/program-rfced-future/issues/127",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "Mike StJohns:\r\n\r\n> Section 5.3 - Suggest adding \"The COI policy shall not preclude the RPC from contracting services from the person or entity performing the RSCE function.  Such contracts shall be disclosed publicly\".  There are too few people that might want to engage with us, and the RPC may not want to pay a full time person for some of the tasks we've moved around.  I'd prefer making it explicit that the LLC can't make working for the RPC an unmanageable COI for the RSCE.",
       "createdAt": "2021-11-05T16:11:10Z",
-      "updatedAt": "2021-11-05T16:11:10Z",
-      "closedAt": null,
-      "comments": []
+      "updatedAt": "2021-11-19T06:49:16Z",
+      "closedAt": "2021-11-19T06:49:16Z",
+      "comments": [
+        {
+          "author": "stpeter",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Fixed by https://github.com/intarchboard/program-rfced-future/commit/c157c3c759b368961fb2d9df9538d1f281a60cda",
+          "createdAt": "2021-11-18T03:01:40Z",
+          "updatedAt": "2021-11-18T03:01:40Z"
+        }
+      ]
     },
     {
       "number": 128,
       "id": "I_kwDODutrrM4-X7rk",
       "title": "Permit RSCE not to wait to be consulted",
       "url": "https://github.com/intarchboard/program-rfced-future/issues/128",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [
@@ -4398,8 +4427,8 @@
       ],
       "body": "Last bullet, Section 5: remove \"If requested\"\r\nNext sentence, change \"RSCE might be consulted\" to \"RSCE might provide guidance\".",
       "createdAt": "2021-11-06T08:30:42Z",
-      "updatedAt": "2021-11-16T02:02:17Z",
-      "closedAt": null,
+      "updatedAt": "2021-11-19T06:41:06Z",
+      "closedAt": "2021-11-19T06:41:06Z",
       "comments": [
         {
           "author": "elear",
@@ -4446,7 +4475,7 @@
       "id": "I_kwDODutrrM4-aJZF",
       "title": "\u00a7 3.1.2 should choose new chair -> chooses new chair",
       "url": "https://github.com/intarchboard/program-rfced-future/issues/130",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [
@@ -4457,8 +4486,8 @@
       ],
       "body": "Be more normative here.",
       "createdAt": "2021-11-08T05:41:00Z",
-      "updatedAt": "2021-11-16T02:28:17Z",
-      "closedAt": null,
+      "updatedAt": "2021-11-19T06:41:06Z",
+      "closedAt": "2021-11-19T06:41:06Z",
       "comments": [
         {
           "author": "stpeter",
@@ -4474,7 +4503,7 @@
       "id": "I_kwDODutrrM4-aJj4",
       "title": "7282->2418 citation",
       "url": "https://github.com/intarchboard/program-rfced-future/issues/131",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [
@@ -4485,8 +4514,8 @@
       ],
       "body": "Per EKR / Brian comments.",
       "createdAt": "2021-11-08T05:42:36Z",
-      "updatedAt": "2021-11-16T01:52:00Z",
-      "closedAt": null,
+      "updatedAt": "2021-11-19T06:41:06Z",
+      "closedAt": "2021-11-19T06:41:06Z",
       "comments": [
         {
           "author": "martinthomson",
@@ -4520,7 +4549,7 @@
       ],
       "body": "From the mailing list...\r\n\r\n> >  *  The RSAB considers those proposals and approves them, returns them\r\n>       to the RSWG for further consideration, or declines to publish\r\n>       them, as appropriate.\r\n>\r\n> It's actually not quite clear to me that the RSAB can decline to\r\n> publish as distinct from just sending the proposal back. What\r\n> would that consist of?\r\n\r\nI think you're identifying an issue in terms of what happens if there is a vote, and there are not three votes to approve a proposal (bottom of \u00a7 3.2.2).  This document doesn't say what happens.  I think what we mean to say is this:\r\n\r\n\"If a vote is taken and the proposal is not approved, it is returned to the RSWG.  The RSWG can then consider making further changes.\"\r\n\r\nThat would match the intro text you quote.",
       "createdAt": "2021-11-08T05:44:17Z",
-      "updatedAt": "2021-11-16T21:54:21Z",
+      "updatedAt": "2021-11-19T17:52:09Z",
       "closedAt": null,
       "comments": [
         {
@@ -4529,6 +4558,20 @@
           "body": "Fixed by https://github.com/intarchboard/program-rfced-future/commit/1e7c2c85faa37f1a46e85b7b6db7763f3d6e799a",
           "createdAt": "2021-11-16T21:54:21Z",
           "updatedAt": "2021-11-16T21:54:21Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "This one needs a bit of additional text in the normative section, if a vote fails.",
+          "createdAt": "2021-11-19T06:42:47Z",
+          "updatedAt": "2021-11-19T06:42:47Z"
+        },
+        {
+          "author": "stpeter",
+          "authorAssociation": "COLLABORATOR",
+          "body": "ACK, will fix in -07.",
+          "createdAt": "2021-11-19T17:52:09Z",
+          "updatedAt": "2021-11-19T17:52:09Z"
         }
       ]
     },
@@ -4537,7 +4580,7 @@
       "id": "I_kwDODutrrM4-aLN6",
       "title": "a member of the community -> a person",
       "url": "https://github.com/intarchboard/program-rfced-future/issues/133",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [
@@ -4548,8 +4591,8 @@
       ],
       "body": "EKR comment.",
       "createdAt": "2021-11-08T05:58:28Z",
-      "updatedAt": "2021-11-16T02:09:54Z",
-      "closedAt": null,
+      "updatedAt": "2021-11-19T06:41:06Z",
+      "closedAt": "2021-11-19T06:41:06Z",
       "comments": [
         {
           "author": "stpeter",
@@ -4591,7 +4634,7 @@
       "id": "I_kwDODutrrM4-5tLo",
       "title": "Colin Perkins feedback",
       "url": "https://github.com/intarchboard/program-rfced-future/issues/135",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "stpeter",
       "authorAssociation": "COLLABORATOR",
       "assignees": [
@@ -4600,8 +4643,8 @@
       "labels": [],
       "body": "See https://mailarchive.ietf.org/arch/msg/rfced-future/6IzweFVAneA1y8KJumoSqWddfR8/",
       "createdAt": "2021-11-16T20:59:05Z",
-      "updatedAt": "2021-11-16T21:59:40Z",
-      "closedAt": null,
+      "updatedAt": "2021-11-19T17:50:35Z",
+      "closedAt": "2021-11-19T17:50:35Z",
       "comments": [
         {
           "author": "stpeter",
@@ -5351,6 +5394,70 @@
         "oid": "73529546aa91c09b4eb12a4160498865760f394c"
       },
       "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 136,
+      "id": "PR_kwDODutrrM4uwSa_",
+      "title": "Make the boilerplate addition a blockquote",
+      "url": "https://github.com/intarchboard/program-rfced-future/pull/136",
+      "state": "MERGED",
+      "author": "martinthomson",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "And fix a reference in the adjoining text.",
+      "createdAt": "2021-11-19T06:33:53Z",
+      "updatedAt": "2021-11-19T19:07:55Z",
+      "baseRepository": "intarchboard/program-rfced-future",
+      "baseRefName": "master",
+      "baseRefOid": "f91d190e5917539c84de1bb857746a3c131d0b1d",
+      "headRepository": "martinthomson/program-rfced-future",
+      "headRefName": "boilerplate-blockquote",
+      "headRefOid": "ed41bc6b880da24b6888894dc8dc2dff45c1fdc1",
+      "closedAt": "2021-11-19T19:07:55Z",
+      "mergedAt": "2021-11-19T19:07:55Z",
+      "mergedBy": "stpeter",
+      "mergeCommit": {
+        "oid": "cf345fcff95b3ac79be9e4804bc73abf331fada2"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 137,
+      "id": "PR_kwDODutrrM4uwtIN",
+      "title": "Proposal to add another paragraph about what the RFC series is",
+      "url": "https://github.com/intarchboard/program-rfced-future/pull/137",
+      "state": "OPEN",
+      "author": "mirjak",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [
+        "In Discussion"
+      ],
+      "body": "I've sent this to the list and adding a PR just here for the report. I guess not much comments on the list so far....",
+      "createdAt": "2021-11-19T09:21:51Z",
+      "updatedAt": "2021-11-19T09:38:56Z",
+      "baseRepository": "intarchboard/program-rfced-future",
+      "baseRefName": "master",
+      "baseRefOid": "c2218f0a96dc02fef116b7f90b58e2e38e6d0837",
+      "headRepository": "intarchboard/program-rfced-future",
+      "headRefName": "mirjak-patch-1",
+      "headRefOid": "fd18fc8709b19acd65c73d9ebc1e6e784392e0a2",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "There is no consensus for this change at this time.  Moreover, this interacts with the discussion we are having about principles.",
+          "createdAt": "2021-11-19T09:38:55Z",
+          "updatedAt": "2021-11-19T09:38:55Z"
+        }
+      ],
       "reviews": []
     }
   ]
