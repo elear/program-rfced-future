@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2021-11-21T00:18:01.198536+00:00",
+  "timestamp": "2021-12-05T00:19:23.944993+00:00",
   "repo": "intarchboard/program-rfced-future",
   "labels": [
     {
@@ -3321,13 +3321,13 @@
       "state": "OPEN",
       "author": "martinthomson",
       "authorAssociation": "CONTRIBUTOR",
-      "assignees": [
-        "elear"
+      "assignees": [],
+      "labels": [
+        "Candidate Text: Consensus call started"
       ],
-      "labels": [],
       "body": "The text on appeals of RSWG decisions says:\r\n\r\n> Decisions of the RSWG can be appealed only on grounds of failure to follow the correct process.\r\n\r\nThe same text does not appear in the paragraph about the RSAB, but it does say:\r\n\r\n> The IAB shall decide whether a process failure occurred and what if any corrective action should take place.\r\n\r\nThis might be confusing or it might be deliberate, I can't tell.\r\n\r\nThe RSAB makes two types of decision: policy approvals and decisions \"related to implementation of policies already in force\".  Is the intent to allow those decisions to be appealed?",
       "createdAt": "2021-10-25T05:26:17Z",
-      "updatedAt": "2021-11-19T17:51:32Z",
+      "updatedAt": "2021-12-04T08:59:00Z",
       "closedAt": null,
       "comments": [
         {
@@ -3385,10 +3385,12 @@
       "assignees": [
         "stpeter"
       ],
-      "labels": [],
+      "labels": [
+        "Candidate Text: Consensus call started"
+      ],
       "body": "> However, in the interest of time the disagreement may be resolved as the parties best see fit while the RSWG formulates a more general policy.\r\n\r\n\"the parties\" is not quite specific enough.  I think that you want to pin this responsibility on the RSAB.  That suggests that an appeals path that is not exclusively process-based might be needed (see #93).",
       "createdAt": "2021-10-25T05:29:47Z",
-      "updatedAt": "2021-11-19T17:52:31Z",
+      "updatedAt": "2021-12-04T08:51:52Z",
       "closedAt": null,
       "comments": [
         {
@@ -4451,15 +4453,15 @@
       "id": "I_kwDODutrrM4-X71n",
       "title": "RSWG chairs issue community call, not RSAB",
       "url": "https://github.com/intarchboard/program-rfced-future/issues/129",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "elear",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "As suggested by Mike St Johns and supprted by Martin Durst.  Disagreement from Colin Perkins.",
       "createdAt": "2021-11-06T08:35:09Z",
-      "updatedAt": "2021-11-15T16:15:25Z",
-      "closedAt": null,
+      "updatedAt": "2021-12-04T08:36:13Z",
+      "closedAt": "2021-12-04T08:36:13Z",
       "comments": [
         {
           "author": "elear",
@@ -4467,6 +4469,13 @@
           "body": "No consensus to change the text.",
           "createdAt": "2021-11-15T16:15:25Z",
           "updatedAt": "2021-11-15T16:15:25Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "No consensus to change this text.",
+          "createdAt": "2021-12-04T08:36:13Z",
+          "updatedAt": "2021-12-04T08:36:13Z"
         }
       ]
     },
@@ -4617,7 +4626,7 @@
       "labels": [],
       "body": "Mnot text:\r\n\r\n> Updates, amendments and refinements of this document can be produced using the process documented here, but are only operative upon agreement of the IAB, the IESG, and the IETF LLC. Note that this does not preclude such changes from being defined outside this process, so long as the same agreement is found.\r\n\r\n",
       "createdAt": "2021-11-11T09:04:01Z",
-      "updatedAt": "2021-11-11T09:31:58Z",
+      "updatedAt": "2021-12-04T12:06:03Z",
       "closedAt": null,
       "comments": [
         {
@@ -4626,6 +4635,13 @@
           "body": "MIrja:\r\n\r\n> \"Updates, amendments and refinements of this document require agreement of the IAB, the IESG, and the IETF LLC.\"\r\n",
           "createdAt": "2021-11-11T09:31:58Z",
           "updatedAt": "2021-11-11T09:31:58Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "See discussion on list.",
+          "createdAt": "2021-12-04T12:06:02Z",
+          "updatedAt": "2021-12-04T12:06:02Z"
         }
       ]
     },
