@@ -4,10 +4,10 @@
 
 Network Working Group                                P. Saint-Andre, Ed.
 Internet-Draft                                                   Mozilla
-Obsoletes: RFC8728 (if approved)                        28 November 2021
+Obsoletes: RFC8728 (if approved)                         5 December 2021
 Updates: RFC7841, RFC8729, RFC8730 (if approved)                        
 Intended status: Informational                                          
-Expires: 1 June 2022
+Expires: 8 June 2022
 
 
                       RFC Editor Model (Version 3)
@@ -15,7 +15,7 @@ Expires: 1 June 2022
 
 Abstract
 
-   This document specifies version 3 of RFC Editor Model.  The model
+   This document specifies version 3 of the RFC Editor Model.  The model
    defines two high-level tasks related to the RFC Series.  Policy
    definition is the joint responsibility of the RFC Series Working
    Group (RSWG), which produces policy proposals, and the RFC Series
@@ -53,7 +53,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 1 June 2022.
+   This Internet-Draft will expire on 8 June 2022.
 
 Copyright Notice
 
