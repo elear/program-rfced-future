@@ -1056,7 +1056,7 @@ Table of Contents
 7.7.  Longevity
 
    RFC Series documents have been published in a form intended to be
-   easily legible to humans for decades or longer.
+   easily accessible and usable to humans for decades or longer.
 
 8.  Changes from Version 2 of the RFC Editor Model
 
