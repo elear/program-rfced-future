@@ -1033,8 +1033,9 @@ Table of Contents
 7.3.  Language
 
    All existing RFC Series documents have been published in English.
-   Documents have been licensed to explicitly permit translation into
-   other languages.
+   However, since the beginning of the RFC series, translation into a
+   language other than English has been allowed and encouraged.  The
+   IETF Trust and the RFC Editor place no restrictions on this.
 
 7.4.  Diversity
 
