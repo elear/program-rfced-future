@@ -1015,7 +1015,7 @@ Table of Contents
    document.  As described under Section 3.2.2 and Section 3.2.3,
    proposals that might have a detrimental effect on these properties
    should receive heightened scrutiny during RSWG discussion and RSAB
-   review.  The purpose of this scrutinty is to ensure that all changes
+   review.  The purpose of this scrutiny is to ensure that all changes
    are deliberate and that the consequences of a proposal, as far as
    they can be identified, have been carefully considered.
 
