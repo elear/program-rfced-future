@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2021-12-07T00:18:39.281797+00:00",
+  "timestamp": "2021-12-09T00:18:17.137893+00:00",
   "repo": "intarchboard/program-rfced-future",
   "labels": [
     {
@@ -5520,13 +5520,13 @@
       "labels": [],
       "body": "",
       "createdAt": "2021-12-06T22:46:30Z",
-      "updatedAt": "2021-12-06T23:45:37Z",
+      "updatedAt": "2021-12-07T23:07:18Z",
       "baseRepository": "intarchboard/program-rfced-future",
       "baseRefName": "master",
       "baseRefOid": "62bc452df614beda44ecbb305c83d83527062f11",
       "headRepository": "intarchboard/program-rfced-future",
       "headRefName": "historical",
-      "headRefOid": "000bd002468d2c96b5adf88e96fe2b779e5c6f91",
+      "headRefOid": "e7a34a66c7b465eddb6526eeb60eb4c1926025ed",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
@@ -5538,9 +5538,181 @@
           "body": "This addresses #119 ",
           "createdAt": "2021-12-06T23:45:37Z",
           "updatedAt": "2021-12-06T23:45:37Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "NONE",
+          "body": "Works for me",
+          "createdAt": "2021-12-07T00:37:53Z",
+          "updatedAt": "2021-12-07T00:37:53Z"
+        },
+        {
+          "author": "adamroach",
+          "authorAssociation": "NONE",
+          "body": "> proposals that might have a detrimental affect on these properties\r\n\r\nNit: effect",
+          "createdAt": "2021-12-07T01:22:32Z",
+          "updatedAt": "2021-12-07T01:22:32Z"
+        },
+        {
+          "author": "adamroach",
+          "authorAssociation": "NONE",
+          "body": "LGTM",
+          "createdAt": "2021-12-07T01:31:35Z",
+          "updatedAt": "2021-12-07T01:31:35Z"
         }
       ],
-      "reviews": []
+      "reviews": [
+        {
+          "id": "PRR_kwDODutrrM4xJ6iH",
+          "commit": {
+            "abbreviatedOid": "000bd00"
+          },
+          "author": "stpeter",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2021-12-07T01:29:51Z",
+          "updatedAt": "2021-12-07T01:29:51Z",
+          "comments": [
+            {
+              "originalPosition": 10,
+              "body": "```suggestion\r\nproposals that might have a detrimental effect on these properties\r\n```",
+              "createdAt": "2021-12-07T01:29:51Z",
+              "updatedAt": "2021-12-07T01:29:51Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDODutrrM4xKbYd",
+          "commit": {
+            "abbreviatedOid": "9c088fc"
+          },
+          "author": "martinthomson",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "Capturing some of the discussion thus far on list.  The actionable parts anyway.  Some requires more discussion, I sense.",
+          "createdAt": "2021-12-07T06:13:47Z",
+          "updatedAt": "2021-12-07T06:19:55Z",
+          "comments": [
+            {
+              "originalPosition": 12,
+              "body": "```suggestion\r\nreview. The purpose of this scrutiny is to ensure that all changes are \r\n```",
+              "createdAt": "2021-12-07T06:13:47Z",
+              "updatedAt": "2021-12-07T06:19:55Z"
+            },
+            {
+              "originalPosition": 37,
+              "body": "JCK suggests (and I think this is better):\r\n\r\n```suggestion\r\nThe RFC series has included many types of documents including standards for\r\nthe Internet, procedural and informational documents, thought experiments,\r\nspeculative ideas, research papers, histories, humor, and even eulogies.\r\n```",
+              "createdAt": "2021-12-07T06:15:57Z",
+              "updatedAt": "2021-12-07T06:19:55Z"
+            },
+            {
+              "originalPosition": 52,
+              "body": "JCK's suggestion:\r\n\r\n```suggestion\r\naccessible and usable to humans for decades or longer.\r\n```",
+              "createdAt": "2021-12-07T06:16:58Z",
+              "updatedAt": "2021-12-07T06:19:55Z"
+            },
+            {
+              "originalPosition": 31,
+              "body": "A lightly edited version of @adamroach's suggestion:\r\n\r\n```suggestion\r\nDocuments have been made available under terms that allow anyone\r\nto translate them into other languages without asking for permission.\r\n```",
+              "createdAt": "2021-12-07T06:18:14Z",
+              "updatedAt": "2021-12-07T06:19:56Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDODutrrM4xKc1i",
+          "commit": {
+            "abbreviatedOid": "9c088fc"
+          },
+          "author": "martinthomson",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2021-12-07T06:22:29Z",
+          "updatedAt": "2021-12-07T06:22:30Z",
+          "comments": [
+            {
+              "originalPosition": 19,
+              "body": "JCK mentions that the series is >50yo.  This is true, but it's not necessary to be so precise:\r\n\r\n```suggestion\r\nDocuments in the RFC Series have been available for many decades, \r\nwith no fee for access.\r\n```",
+              "createdAt": "2021-12-07T06:22:29Z",
+              "updatedAt": "2021-12-07T06:22:30Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDODutrrM4xOV-0",
+          "commit": {
+            "abbreviatedOid": "e7a34a6"
+          },
+          "author": "martinthomson",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "A few more thoughts.",
+          "createdAt": "2021-12-07T22:42:04Z",
+          "updatedAt": "2021-12-07T22:42:56Z",
+          "comments": [
+            {
+              "originalPosition": 53,
+              "body": "Based on discussion on-list, a thought:\r\n\r\n```suggestion\r\ncomprehensible to humans for decades or longer.\r\n```",
+              "createdAt": "2021-12-07T22:42:04Z",
+              "updatedAt": "2021-12-07T22:42:56Z"
+            },
+            {
+              "originalPosition": 32,
+              "body": "```suggestion\r\nlanguage other than English has been allowed and encouraged.\r\n```",
+              "createdAt": "2021-12-07T22:42:30Z",
+              "updatedAt": "2021-12-07T22:42:56Z"
+            },
+            {
+              "originalPosition": 19,
+              "body": "```suggestion\r\nwith no constraints on access or distribution.\r\n```",
+              "createdAt": "2021-12-07T22:42:46Z",
+              "updatedAt": "2021-12-07T22:42:56Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDODutrrM4xOWgx",
+          "commit": {
+            "abbreviatedOid": "e7a34a6"
+          },
+          "author": "martinthomson",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2021-12-07T22:45:42Z",
+          "updatedAt": "2021-12-07T22:45:43Z",
+          "comments": [
+            {
+              "originalPosition": 19,
+              "body": "or\r\n```suggestion\r\nwith no constraints on access or redistribution.\r\n```",
+              "createdAt": "2021-12-07T22:45:43Z",
+              "updatedAt": "2021-12-07T22:45:43Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDODutrrM4xOZmy",
+          "commit": {
+            "abbreviatedOid": "e7a34a6"
+          },
+          "author": "martinthomson",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2021-12-07T23:07:14Z",
+          "updatedAt": "2021-12-07T23:07:18Z",
+          "comments": [
+            {
+              "originalPosition": 53,
+              "body": "Stephen points out that pairing that word with \"easily\" might not be wise.  For some reason I can't re-suggest here (GitHub failure), so maybe consider that also.",
+              "createdAt": "2021-12-07T23:07:14Z",
+              "updatedAt": "2021-12-07T23:07:18Z"
+            }
+          ]
+        }
+      ]
     },
     {
       "number": 141,
@@ -5554,13 +5726,13 @@
       "labels": [],
       "body": "",
       "createdAt": "2021-12-06T22:49:59Z",
-      "updatedAt": "2021-12-07T00:03:41Z",
+      "updatedAt": "2021-12-07T00:36:41Z",
       "baseRepository": "intarchboard/program-rfced-future",
       "baseRefName": "master",
       "baseRefOid": "62bc452df614beda44ecbb305c83d83527062f11",
       "headRepository": "intarchboard/program-rfced-future",
       "headRefName": "cfc",
-      "headRefOid": "671ebf2b5c8351ed589e2a1a38d1f3f5cf0b3858",
+      "headRefOid": "52417fb76abed7134fb407c857506fa75715acba",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
@@ -5579,6 +5751,13 @@
           "body": "@stpeter, there is a section on the right in the GitHub UI ( Linked issues ) that you can use to link this to the correct issue (#139) so that it will close that issue when this merges.",
           "createdAt": "2021-12-07T00:03:41Z",
           "updatedAt": "2021-12-07T00:03:41Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "NONE",
+          "body": "Looks good to me",
+          "createdAt": "2021-12-07T00:36:41Z",
+          "updatedAt": "2021-12-07T00:36:41Z"
         }
       ],
       "reviews": [
