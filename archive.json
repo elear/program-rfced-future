@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2021-12-09T00:18:17.137893+00:00",
+  "timestamp": "2021-12-12T00:19:29.502224+00:00",
   "repo": "intarchboard/program-rfced-future",
   "labels": [
     {
@@ -5726,7 +5726,7 @@
       "labels": [],
       "body": "",
       "createdAt": "2021-12-06T22:49:59Z",
-      "updatedAt": "2021-12-07T00:36:41Z",
+      "updatedAt": "2021-12-09T05:47:34Z",
       "baseRepository": "intarchboard/program-rfced-future",
       "baseRefName": "master",
       "baseRefOid": "62bc452df614beda44ecbb305c83d83527062f11",
@@ -5778,6 +5778,26 @@
               "body": "```suggestion\r\n   characteristics of the Series as described under {{properties}}.\r\n```\r\n\r\nThis link will be broken until the parallel PR (#140) merges.",
               "createdAt": "2021-12-06T23:59:15Z",
               "updatedAt": "2021-12-06T23:59:19Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDODutrrM4xTm5N",
+          "commit": {
+            "abbreviatedOid": "52417fb"
+          },
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2021-12-09T05:47:33Z",
+          "updatedAt": "2021-12-09T05:47:34Z",
+          "comments": [
+            {
+              "originalPosition": 80,
+              "body": "This text needs to be in Section 3 under the criteria for a CONCERN.",
+              "createdAt": "2021-12-09T05:47:33Z",
+              "updatedAt": "2021-12-09T05:47:34Z"
             }
           ]
         }
