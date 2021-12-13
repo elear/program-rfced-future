@@ -4,10 +4,10 @@
 
 Network Working Group                                P. Saint-Andre, Ed.
 Internet-Draft                                                   Mozilla
-Obsoletes: RFC8728 (if approved)                         7 December 2021
+Obsoletes: RFC8728 (if approved)                        13 December 2021
 Updates: RFC7841, RFC8729, RFC8730 (if approved)                        
 Intended status: Informational                                          
-Expires: 10 June 2022
+Expires: 16 June 2022
 
 
                       RFC Editor Model (Version 3)
@@ -53,7 +53,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 10 June 2022.
+   This Internet-Draft will expire on 16 June 2022.
 
 Copyright Notice
 
@@ -1022,7 +1022,7 @@ Table of Contents
 7.1.  Availability
 
    Documents in the RFC Series have been available for many decades,
-   with no fee for access.
+   with no constraints on access or distribution.
 
 7.2.  Accessibility
 
