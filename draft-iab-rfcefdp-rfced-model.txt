@@ -4,10 +4,10 @@
 
 Network Working Group                                P. Saint-Andre, Ed.
 Internet-Draft                                                   Mozilla
-Obsoletes: RFC8728 (if approved)                         5 December 2021
+Obsoletes: RFC8728 (if approved)                        13 December 2021
 Updates: RFC7841, RFC8729, RFC8730 (if approved)                        
 Intended status: Informational                                          
-Expires: 8 June 2022
+Expires: 16 June 2022
 
 
                       RFC Editor Model (Version 3)
@@ -53,7 +53,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 8 June 2022.
+   This Internet-Draft will expire on 16 June 2022.
 
 Copyright Notice
 
@@ -99,7 +99,9 @@ Table of Contents
      5.3.  Temporary RSCE Appointment
      5.4.  Conflict of Interest
    6.  Editorial Stream
-     6.1.  Editorial Stream Boilerplate
+     6.1.  Procedures Request of the IETF Trust
+     6.2.  Patent and Trademark Rules for the Editorial Stream
+     6.3.  Editorial Stream Boilerplate
    7.  Changes from Version 2 of the RFC Editor Model
      7.1.  RFC Editor Function
      7.2.  RFC Series Editor
@@ -976,7 +978,48 @@ Table of Contents
    The requirements and process for creating any additional RFC streams
    are outside the scope of this document.
 
-6.1.  Editorial Stream Boilerplate
+6.1.  Procedures Request of the IETF Trust
+
+   The IAB requests that the IETF Trust and its Trustees assist in
+   meeting the goals and procedures set forth in this document.
+
+   The Trustees are requested to publicly confirm their willingness and
+   ability to accept responsibility for the Intellectual Property Rights
+   for the Editorial Stream.
+
+   Specifically, the Trustees are asked to develop the necessary
+   boilerplate to enable the suitable marking of documents so that the
+   IETF Trust receives the rights as specified in [RFC5378].  These
+   procedures need to also allow authors to indicate either no rights to
+   make derivative works, or preferentially, the right to make unlimited
+   derivative works from the documents.  It is left to the Trust to
+   specify exactly how this shall be clearly indicated in each document.
+
+6.2.  Patent and Trademark Rules for the Editorial Stream
+
+   As specified above, contributors of documents for the Editorial
+   Stream are expected to use the IETF Internet-Draft process, complying
+   therein with the rules specified in the latest version of BCP 9,
+   whose version at the time of writing was [RFC2026].  This includes
+   the disclosure of Patent and Trademark issues that are known, or can
+   be reasonably expected to be known, to the contributor.
+
+   Disclosure of license terms for patents is also requested, as
+   specified in the most recent version of BCP 79.  The version of BCP
+   79 at the time of this writing was [RFC8179].  The Editorial Stream
+   has chosen to use the IETF's IPR disclosure mechanism,
+   https://www.ietf.org/ipr/, for this purpose.  The IAB would prefer
+   the most liberal terms possible be made available for Editorial
+   Stream documents.  Terms that do not require fees or licensing are
+   preferable.
+   Non-discriminatory terms are strongly preferred over those that
+   discriminate among users.  However, although disclosure is required
+   and the RSWG and the RSAB may consider disclosures and terms in
+   making a decision as to whether to submit a document for publication,
+   there are no specific requirements on the licensing terms for
+   intellectual property related to Editorial Stream publication.
+
+6.3.  Editorial Stream Boilerplate
 
    This document specifies the following text for the "Status of This
    Memo" section of RFCs published in the Editorial Stream.  Any changes
@@ -1110,6 +1153,10 @@ Table of Contents
               rfced-iab-charter-04, 18 November 2021,
               <https://datatracker.ietf.org/doc/html/draft-carpenter-
               rfced-iab-charter-04>.
+
+   [RFC2026]  Bradner, S., "The Internet Standards Process -- Revision
+              3", BCP 9, RFC 2026, DOI 10.17487/RFC2026, October 1996,
+              <https://www.rfc-editor.org/rfc/rfc2026>.
 
    [RFC2418]  Bradner, S., "IETF Working Group Guidelines and
               Procedures", BCP 25, RFC 2418, DOI 10.17487/RFC2418,
