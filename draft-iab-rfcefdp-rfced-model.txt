@@ -102,17 +102,25 @@ Table of Contents
      6.1.  Procedures Request of the IETF Trust
      6.2.  Patent and Trademark Rules for the Editorial Stream
      6.3.  Editorial Stream Boilerplate
-   7.  Changes from Version 2 of the RFC Editor Model
-     7.1.  RFC Editor Function
-     7.2.  RFC Series Editor
-     7.3.  RFC Publisher
-     7.4.  IAB
-     7.5.  RFC Series Oversight Committee (RSOC)
-     7.6.  RFC Series Advisory Group (RSAG)
-     7.7.  Editorial Stream
-   8.  Security Considerations
-   9.  IANA Considerations
-   10. Informative References
+   7.  Historical Properties of the RFC Series
+     7.1.  Availability
+     7.2.  Accessibility
+     7.3.  Language
+     7.4.  Diversity
+     7.5.  Quality
+     7.6.  Stability
+     7.7.  Longevity
+   8.  Changes from Version 2 of the RFC Editor Model
+     8.1.  RFC Editor Function
+     8.2.  RFC Series Editor
+     8.3.  RFC Publisher
+     8.4.  IAB
+     8.5.  RFC Series Oversight Committee (RSOC)
+     8.6.  RFC Series Advisory Group (RSAG)
+     8.7.  Editorial Stream
+   9.  Security Considerations
+   10. IANA Considerations
+   11. Informative References
    Acknowledgments
    Author's Address
 
@@ -182,7 +190,7 @@ Table of Contents
    [RFC8729] by replacing the RFC Editor role with the RSWG, RSAB, and
    RSCE.  This document updates [RFC8730] by removing the dependency on
    certain policies specified by the IAB and RSE.  More detailed
-   information can be found under under Section 7.
+   information can be found under under Section 8.
 
 2.  Overview of the Model
 
@@ -1042,9 +1050,60 @@ Table of Contents
    The third paragraph of the "Status of This Memo" section shall be as
    specified in Section 3.5 of [RFC7841].
 
-7.  Changes from Version 2 of the RFC Editor Model
+7.  Historical Properties of the RFC Series
 
-7.1.  RFC Editor Function
+   This section lists some of the properties that have been historically
+   regarded as important to the RFC Series.  Proposals that affect these
+   properties are possible within the processes defined in this
+   document.  As described under Section 3.2.2 and Section 3.2.3,
+   proposals that might have a detrimental effect on these properties
+   should receive heightened scrutiny during RSWG discussion and RSAB
+   review.  The purpose of this scrutiny is to ensure that all changes
+   are deliberate and that the consequences of a proposal, as far as
+   they can be identified, have been carefully considered.
+
+7.1.  Availability
+
+   Documents in the RFC Series have been available for many decades,
+   with no constraints on access or distribution.
+
+7.2.  Accessibility
+
+   RFC Series documents have been published in a format that was
+   intended to be as accessible as possible to those with special needs,
+   e.g., for those with impaired sight.
+
+7.3.  Language
+
+   All existing RFC Series documents have been published in English.
+   However, since the beginning of the RFC series, translation into a
+   language other than English has been allowed and encouraged.
+
+7.4.  Diversity
+
+   The RFC series has included many types of documents including
+   standards for the Internet, procedural and informational documents,
+   thought experiments, speculative ideas, research papers, histories,
+   humor, and even eulogies.
+
+7.5.  Quality
+
+   RFC Series documents have been reviewed for subject matter quality
+   and edited by professionals with a goal of ensuring that documents
+   are clear, consistent, and readable [RFC7322].
+
+7.6.  Stability
+
+   Once published, RFC Series documents have not changed.
+
+7.7.  Longevity
+
+   RFC Series documents have been published in a form intended to be
+   easily comprehensible to humans for decades or longer.
+
+8.  Changes from Version 2 of the RFC Editor Model
+
+8.1.  RFC Editor Function
 
    Several responsibilities previously assigned to the "RFC Editor" or,
    more precisely, the "RFC Editor function" are now performed by the
@@ -1064,7 +1123,7 @@ Table of Contents
    details regarding these responsibilities have been modified to accord
    with the new framework defined in this document.
 
-7.2.  RFC Series Editor
+8.2.  RFC Series Editor
 
    Implied by the changes outlined in the previous section, the
    responsibilities of the RFC Series Editor (RSE) as a person or role
@@ -1078,14 +1137,14 @@ Table of Contents
    Editor function" as described herein, but should not be taken as
    referring to the RSCE.
 
-7.3.  RFC Publisher
+8.3.  RFC Publisher
 
    In practice the RFC Production Center (RPC) and RFC Publisher roles
    have been performed by the same entity and this practice is expected
    to continue; therefore this document dispenses with the distinction
    and refers only to the RPC.
 
-7.4.  IAB
+8.4.  IAB
 
    Under earlier versions of the RFC Editor Model, the IAB was
    responsible for oversight of the RFC Series and acted as a body for
@@ -1093,14 +1152,14 @@ Table of Contents
    in these matters is described in the IAB's charter ([RFC2850] as
    updated by [I-D.draft-carpenter-rfced-iab-charter]).  Under version 2
    of the Model, the IAB delegated some of its authority to the RFC
-   Series Oversight Committee (see Section 7.5).  Under version 3 of the
+   Series Oversight Committee (see Section 8.5).  Under version 3 of the
    Model, authority for policy definition resides with the RSWG as an
    independent venue for work by members of the community (with approval
    of policy proposals as the responsibility of the RSAB, representing
    the streams and the RSCE), whereas authority for policy
    implementation resides with the IETF LLC.
 
-7.5.  RFC Series Oversight Committee (RSOC)
+8.5.  RFC Series Oversight Committee (RSOC)
 
    In practice, the relationships and lines of authority and
    responsibility between the IAB, RSOC, and RSE have proved unwieldy
@@ -1108,19 +1167,19 @@ Table of Contents
    dispenses with the RSOC.  References to the RSOC in documents such as
    [RFC8730] are obsolete because this document disbands the RSOC.
 
-7.6.  RFC Series Advisory Group (RSAG)
+8.6.  RFC Series Advisory Group (RSAG)
 
    Version 1 of the RFC Editor Model [RFC5620] specified the existence
    of the RFC Series Advisory Group (RSAG), which was no longer
    specified in version 2 of the Model.  For the avoidance of doubt,
    this document affirms that the RSAG has been disbanded.
 
-7.7.  Editorial Stream
+8.7.  Editorial Stream
 
    This document creates the Editorial Stream in addition to the streams
    already described in [RFC8729].
 
-8.  Security Considerations
+9.  Security Considerations
 
    The same security considerations as those in [RFC8729] apply.  The
    processes for the publication of documents must prevent the
@@ -1136,7 +1195,7 @@ Table of Contents
    The IETF LLC should take these security considerations into account
    during the implementation and enforcement of any relevant contracts.
 
-9.  IANA Considerations
+10.  IANA Considerations
 
    This document places responsibility for coordination of registry
    value assignments with the RPC.  The IETF LLC facilitates management
@@ -1145,7 +1204,7 @@ Table of Contents
    This document does not create a new registry nor does it register any
    values in existing registries, and no IANA action is required.
 
-10.  Informative References
+11.  Informative References
 
    [I-D.draft-carpenter-rfced-iab-charter]
               Carpenter, B. E., "IAB Charter Update for RFC Editor
