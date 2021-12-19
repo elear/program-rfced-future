@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2021-12-16T00:18:25.671460+00:00",
+  "timestamp": "2021-12-19T00:20:14.423892+00:00",
   "repo": "intarchboard/program-rfced-future",
   "labels": [
     {
@@ -4715,9 +4715,17 @@
       "labels": [],
       "body": "Raised by Brian Carpenter on list: \"As far as I can see, we don't specify whether the RSAB's mailing list does, or doesn't, have a public archive.\"",
       "createdAt": "2021-12-15T23:36:47Z",
-      "updatedAt": "2021-12-15T23:36:47Z",
+      "updatedAt": "2021-12-16T02:44:46Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "becarpenter",
+          "authorAssociation": "NONE",
+          "body": "Opinion: Preferably, the list archive will be public, but in that case there will also need to be a -private list for \"executive session\" discussions.",
+          "createdAt": "2021-12-16T02:44:45Z",
+          "updatedAt": "2021-12-16T02:44:45Z"
+        }
+      ]
     }
   ],
   "pulls": [
