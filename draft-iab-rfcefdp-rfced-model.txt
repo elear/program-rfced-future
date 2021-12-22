@@ -4,10 +4,10 @@
 
 Network Working Group                                P. Saint-Andre, Ed.
 Internet-Draft                                                   Mozilla
-Obsoletes: RFC8728 (if approved)                        13 December 2021
+Obsoletes: RFC8728 (if approved)                        22 December 2021
 Updates: RFC7841, RFC8729, RFC8730 (if approved)                        
 Intended status: Informational                                          
-Expires: 16 June 2022
+Expires: 25 June 2022
 
 
                       RFC Editor Model (Version 3)
@@ -53,7 +53,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 16 June 2022.
+   This Internet-Draft will expire on 25 June 2022.
 
 Copyright Notice
 
@@ -299,10 +299,10 @@ Table of Contents
    and IESG members, individuals who use RFCs in procurement decisions,
    authors of RFCs and Internet-Drafts, developers of tools used to
    author RFCs, scholarly researchers, and so on.  The IETF LLC Board
-   members, staff, and the IETF Executive Director are invited to
-   participate as community members in the RSWG to the extent permitted
-   by any relevant IETF LLC policies.  Members of the RSAB are also
-   expected to participate actively.
+   members, staff, contractors, and the IETF Executive Director are
+   invited to participate as community members in the RSWG to the extent
+   permitted by any relevant IETF LLC policies.  Members of the RSAB are
+   also expected to participate actively.
 
    The RSWG shall have two chairs, one appointed by the IESG and the
    other appointed by the IAB.  When the RSWG is formed, the chair
