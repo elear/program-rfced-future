@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2021-12-19T00:20:14.423892+00:00",
+  "timestamp": "2022-01-04T00:19:21.730518+00:00",
   "repo": "intarchboard/program-rfced-future",
   "labels": [
     {
@@ -4726,6 +4726,94 @@
           "updatedAt": "2021-12-16T02:44:45Z"
         }
       ]
+    },
+    {
+      "number": 144,
+      "id": "I_kwDODutrrM5BJFU8",
+      "title": "Other modes of operation",
+      "url": "https://github.com/intarchboard/program-rfced-future/issues/144",
+      "state": "OPEN",
+      "author": "ekr",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "The current document says:\r\n\r\n\r\n>  When the RSWG is formed, all discussions shall take place on an open\r\n   email discussion list, which shall be publicly archived.\r\n   Subsequently, the RSWG may decide by rough consensus to also use\r\n   additional tooling (e.g., GitHub as specified in [RFC8874]), forms of\r\n   communication (e.g., in-person or online meetings), and working\r\n   methods (e.g., design teams) as long as they are consistent with\r\n   [RFC2418].\r\n\r\nI understand that there are people who want to require a new finding of\r\nconsensus to use Github, and that's fine, but this text seems to require\r\nrough consensus to schedule a meeting -- or at least to schedule the\r\nfirst one. That seems too restrictive. If others agree, I can propose text\r\nto allow the normal IETF-like modes of operation but carve out the\r\nGithub exception.",
+      "createdAt": "2022-01-03T23:48:10Z",
+      "updatedAt": "2022-01-03T23:48:48Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 145,
+      "id": "I_kwDODutrrM5BJF30",
+      "title": "CONCERN for unaddressed comments",
+      "url": "https://github.com/intarchboard/program-rfced-future/issues/145",
+      "state": "OPEN",
+      "author": "ekr",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "I apologize for the late notice, but I just noticed the following reason for a CONCERN position:\r\n\r\n>    *  Comments received during a community call for comment need to be\r\n      addressed, as described under Section 3.2.3.\r\n\r\nThis seems like it allows the RSAB to launder an objection for any reason other than the previous two (harm to a stream or the  series) by just saying that a community member objected. My memory is that that list was intended to be exclusive and so therefore I think we should strike or narrow this last reason so that the objections themselves need to be for one of the above two reasons.\r\n\r\n",
+      "createdAt": "2022-01-03T23:55:21Z",
+      "updatedAt": "2022-01-03T23:57:44Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "ekr",
+          "authorAssociation": "NONE",
+          "body": "To add to this, I would have expected that one could appeal an RSAB CONCERN on the grounds that it was for an invalid reason (E.g., I just don't like the spelling in this document)   but S 3.2.4 seems to be unclear on this point.",
+          "createdAt": "2022-01-03T23:57:44Z",
+          "updatedAt": "2022-01-03T23:57:44Z"
+        }
+      ]
+    },
+    {
+      "number": 146,
+      "id": "I_kwDODutrrM5BJGV3",
+      "title": "Core RPC responsibilities",
+      "url": "https://github.com/intarchboard/program-rfced-future/issues/146",
+      "state": "OPEN",
+      "author": "ekr",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2022-01-04T00:01:08Z",
+      "updatedAt": "2022-01-04T00:02:10Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "ekr",
+          "authorAssociation": "NONE",
+          "body": ">   The core responsibility of the RPC is continuous improvement\r\n   regarding the implementation of RFC policies (including the\r\n   dimensions of document quality, timeliness of production, and\r\n   accessibility of results), while taking into account issues raised by\r\n   the community through the RSWG and by the stream approving bodies.\r\n   More specifically, the RPC's responsibilities at the time of writing\r\n   include the following:\r\n\r\nI appreciate the kaizen rhetoric, but it seems to me that actually the core responsibility is to keep publishing RFCs (the RFCs must flow!). I'd be happy to provide some new text if you agree @stpeter ",
+          "createdAt": "2022-01-04T00:02:10Z",
+          "updatedAt": "2022-01-04T00:02:10Z"
+        }
+      ]
+    },
+    {
+      "number": 147,
+      "id": "I_kwDODutrrM5BJGjh",
+      "title": "Does the RPC create and preserve records",
+      "url": "https://github.com/intarchboard/program-rfced-future/issues/147",
+      "state": "OPEN",
+      "author": "ekr",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "S 4.3 says that the RPC has the responsibility to \"Creating and preserving records of edits performed on documents.\". Does this happen now? I am not aware of where to find them.",
+      "createdAt": "2022-01-04T00:02:59Z",
+      "updatedAt": "2022-01-04T00:04:19Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "ekr",
+          "authorAssociation": "NONE",
+          "body": "Similarly    \"Creating and preserving records of dialogue with document  authors.\" \r\n\r\nIs there some policy here or is it just in people's mailboxes?\r\n",
+          "createdAt": "2022-01-04T00:04:19Z",
+          "updatedAt": "2022-01-04T00:04:19Z"
+        }
+      ]
     }
   ],
   "pulls": [
@@ -5872,6 +5960,32 @@
           "updatedAt": "2021-12-06T23:45:15Z"
         }
       ],
+      "reviews": []
+    },
+    {
+      "number": 148,
+      "id": "PR_kwDODutrrM4wfMps",
+      "title": "Some hopefully minor editorial comments.",
+      "url": "https://github.com/intarchboard/program-rfced-future/pull/148",
+      "state": "OPEN",
+      "author": "ekr",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "Note that there are a a few places where I dialed back\r\nsome text that seemed too aspirational (\"all interested parties\").\r\nI don't think this substantively changes anything, because\r\nwe weren't able to guarantee delivering that level of service\r\nanyway.",
+      "createdAt": "2022-01-04T00:10:54Z",
+      "updatedAt": "2022-01-04T00:10:54Z",
+      "baseRepository": "intarchboard/program-rfced-future",
+      "baseRefName": "master",
+      "baseRefOid": "4c01fe35dbc170bb58dd350bd432f2385412ce3a",
+      "headRepository": "ekr/program-rfced-future",
+      "headRefName": "ekr_editorial2",
+      "headRefOid": "22bf0d6271139c31b9236de95a30e06c927c7994",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
       "reviews": []
     }
   ]
