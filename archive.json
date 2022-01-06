@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2022-01-04T00:19:21.730518+00:00",
+  "timestamp": "2022-01-06T00:20:04.109920+00:00",
   "repo": "intarchboard/program-rfced-future",
   "labels": [
     {
@@ -4558,7 +4558,7 @@
       ],
       "body": "From the mailing list...\r\n\r\n> >  *  The RSAB considers those proposals and approves them, returns them\r\n>       to the RSWG for further consideration, or declines to publish\r\n>       them, as appropriate.\r\n>\r\n> It's actually not quite clear to me that the RSAB can decline to\r\n> publish as distinct from just sending the proposal back. What\r\n> would that consist of?\r\n\r\nI think you're identifying an issue in terms of what happens if there is a vote, and there are not three votes to approve a proposal (bottom of \u00a7 3.2.2).  This document doesn't say what happens.  I think what we mean to say is this:\r\n\r\n\"If a vote is taken and the proposal is not approved, it is returned to the RSWG.  The RSWG can then consider making further changes.\"\r\n\r\nThat would match the intro text you quote.",
       "createdAt": "2021-11-08T05:44:17Z",
-      "updatedAt": "2021-11-19T17:52:09Z",
+      "updatedAt": "2022-01-04T09:28:22Z",
       "closedAt": null,
       "comments": [
         {
@@ -4581,6 +4581,13 @@
           "body": "ACK, will fix in -07.",
           "createdAt": "2021-11-19T17:52:09Z",
           "updatedAt": "2021-11-19T17:52:09Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "This still needs work.\r\n",
+          "createdAt": "2022-01-04T09:28:22Z",
+          "updatedAt": "2022-01-04T09:28:22Z"
         }
       ]
     },
@@ -4739,9 +4746,38 @@
       "labels": [],
       "body": "The current document says:\r\n\r\n\r\n>  When the RSWG is formed, all discussions shall take place on an open\r\n   email discussion list, which shall be publicly archived.\r\n   Subsequently, the RSWG may decide by rough consensus to also use\r\n   additional tooling (e.g., GitHub as specified in [RFC8874]), forms of\r\n   communication (e.g., in-person or online meetings), and working\r\n   methods (e.g., design teams) as long as they are consistent with\r\n   [RFC2418].\r\n\r\nI understand that there are people who want to require a new finding of\r\nconsensus to use Github, and that's fine, but this text seems to require\r\nrough consensus to schedule a meeting -- or at least to schedule the\r\nfirst one. That seems too restrictive. If others agree, I can propose text\r\nto allow the normal IETF-like modes of operation but carve out the\r\nGithub exception.",
       "createdAt": "2022-01-03T23:48:10Z",
-      "updatedAt": "2022-01-03T23:48:48Z",
+      "updatedAt": "2022-01-06T00:18:08Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "stpeter",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Suggested text:\r\n\r\n> When the RSWG is formed, all discussions shall take place on an\r\nopen email discussion list, which shall be publicly archived. The\r\nRSWG is also empowered to hold in-person or online meetings. The RSWG\r\nmay also decide by rough consensus to use additional tooling (e.g.,\r\nGitHub as specified in {{RFC8874}}), forms of communication,\r\nand working methods (e.g., design teams) as long as they are\r\nconsistent with {{RFC2418}}.",
+          "createdAt": "2022-01-06T00:07:16Z",
+          "updatedAt": "2022-01-06T00:07:16Z"
+        },
+        {
+          "author": "stpeter",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I wonder if we need to say something about advance notice for meetings...",
+          "createdAt": "2022-01-06T00:07:49Z",
+          "updatedAt": "2022-01-06T00:07:49Z"
+        },
+        {
+          "author": "ekr",
+          "authorAssociation": "NONE",
+          "body": "Can we just steal text from the IETF rules about meetings?",
+          "createdAt": "2022-01-06T00:10:39Z",
+          "updatedAt": "2022-01-06T00:10:39Z"
+        },
+        {
+          "author": "stpeter",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I guess that would be https://www.ietf.org/about/groups/iesg/statements/interim-meetings-guidance-2016-01-16/\r\n\r\nLet me see if I can boil it down. Also I will bring this to the list.",
+          "createdAt": "2022-01-06T00:18:08Z",
+          "updatedAt": "2022-01-06T00:18:08Z"
+        }
+      ]
     },
     {
       "number": 145,
@@ -4755,7 +4791,7 @@
       "labels": [],
       "body": "I apologize for the late notice, but I just noticed the following reason for a CONCERN position:\r\n\r\n>    *  Comments received during a community call for comment need to be\r\n      addressed, as described under Section 3.2.3.\r\n\r\nThis seems like it allows the RSAB to launder an objection for any reason other than the previous two (harm to a stream or the  series) by just saying that a community member objected. My memory is that that list was intended to be exclusive and so therefore I think we should strike or narrow this last reason so that the objections themselves need to be for one of the above two reasons.\r\n\r\n",
       "createdAt": "2022-01-03T23:55:21Z",
-      "updatedAt": "2022-01-03T23:57:44Z",
+      "updatedAt": "2022-01-04T08:58:10Z",
       "closedAt": null,
       "comments": [
         {
@@ -4779,7 +4815,7 @@
       "labels": [],
       "body": "",
       "createdAt": "2022-01-04T00:01:08Z",
-      "updatedAt": "2022-01-04T00:02:10Z",
+      "updatedAt": "2022-01-06T00:07:30Z",
       "closedAt": null,
       "comments": [
         {
@@ -4788,6 +4824,20 @@
           "body": ">   The core responsibility of the RPC is continuous improvement\r\n   regarding the implementation of RFC policies (including the\r\n   dimensions of document quality, timeliness of production, and\r\n   accessibility of results), while taking into account issues raised by\r\n   the community through the RSWG and by the stream approving bodies.\r\n   More specifically, the RPC's responsibilities at the time of writing\r\n   include the following:\r\n\r\nI appreciate the kaizen rhetoric, but it seems to me that actually the core responsibility is to keep publishing RFCs (the RFCs must flow!). I'd be happy to provide some new text if you agree @stpeter ",
           "createdAt": "2022-01-04T00:02:10Z",
           "updatedAt": "2022-01-04T00:02:10Z"
+        },
+        {
+          "author": "stpeter",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Good catch. Here is suggested text:\r\n\r\n> The core responsibility of the RPC is the implementation of RFC Series\r\npolicies through publication of RFCs (including the dimensions of document\r\nquality, timeliness of production, and accessibility of results), while\r\ntaking into account issues raised by the community through the RSWG and\r\nby the stream approving bodies.",
+          "createdAt": "2022-01-06T00:05:30Z",
+          "updatedAt": "2022-01-06T00:05:30Z"
+        },
+        {
+          "author": "ekr",
+          "authorAssociation": "NONE",
+          "body": "LGTM\n\nOn Wed, Jan 5, 2022 at 4:05 PM Peter Saint-Andre ***@***.***>\nwrote:\n\n> Good catch. Here is suggested text:\n>\n> The core responsibility of the RPC is the implementation of RFC Series\n> policies through publication of RFCs (including the dimensions of document\n> quality, timeliness of production, and accessibility of results), while\n> taking into account issues raised by the community through the RSWG and\n> by the stream approving bodies.\n>\n> \u2014\n> Reply to this email directly, view it on GitHub\n> <https://github.com/intarchboard/program-rfced-future/issues/146#issuecomment-1006175031>,\n> or unsubscribe\n> <https://github.com/notifications/unsubscribe-auth/AAIPLINUKVOGQOTVTYLME3TUUTMFJANCNFSM5LGHOQLA>\n> .\n> Triage notifications on the go with GitHub Mobile for iOS\n> <https://apps.apple.com/app/apple-store/id1477376905?ct=notification-email&mt=8&pt=524675>\n> or Android\n> <https://play.google.com/store/apps/details?id=com.github.android&referrer=utm_campaign%3Dnotification-email%26utm_medium%3Demail%26utm_source%3Dgithub>.\n>\n> You are receiving this because you authored the thread.Message ID:\n> ***@***.***>\n>\n",
+          "createdAt": "2022-01-06T00:07:29Z",
+          "updatedAt": "2022-01-06T00:07:29Z"
         }
       ]
     },
@@ -4803,7 +4853,7 @@
       "labels": [],
       "body": "S 4.3 says that the RPC has the responsibility to \"Creating and preserving records of edits performed on documents.\". Does this happen now? I am not aware of where to find them.",
       "createdAt": "2022-01-04T00:02:59Z",
-      "updatedAt": "2022-01-04T00:04:19Z",
+      "updatedAt": "2022-01-04T08:58:21Z",
       "closedAt": null,
       "comments": [
         {
@@ -4812,6 +4862,34 @@
           "body": "Similarly    \"Creating and preserving records of dialogue with document  authors.\" \r\n\r\nIs there some policy here or is it just in people's mailboxes?\r\n",
           "createdAt": "2022-01-04T00:04:19Z",
           "updatedAt": "2022-01-04T00:04:19Z"
+        }
+      ]
+    },
+    {
+      "number": 149,
+      "id": "I_kwDODutrrM5BJ6du",
+      "title": "Make clear what happens when a vote is taken and the proposal doesn't pass",
+      "url": "https://github.com/intarchboard/program-rfced-future/issues/149",
+      "state": "CLOSED",
+      "author": "elear",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [
+        "stpeter"
+      ],
+      "labels": [
+        "Editorial"
+      ],
+      "body": "We need to add one additional bullet between 4 and 5 that says if the vote fails, that the proposal is returned to the RSWG for further consideration.  This was already agreed by the program.",
+      "createdAt": "2022-01-04T08:25:18Z",
+      "updatedAt": "2022-01-04T09:27:57Z",
+      "closedAt": "2022-01-04T09:27:56Z",
+      "comments": [
+        {
+          "author": "elear",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Duplicate.",
+          "createdAt": "2022-01-04T09:27:56Z",
+          "updatedAt": "2022-01-04T09:27:56Z"
         }
       ]
     }
